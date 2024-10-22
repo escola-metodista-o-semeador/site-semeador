@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    // Auto Rename Tag
+    "formulahendry.auto-rename-tag",
+    // Brazilian Portuguese - Code Spell Checker e Code Spell Checker
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+    // Highlight Matching Tag
+    "vincaslt.highlight-matching-tag",
+    // Indent Rainbow
+    "oderwat.indent-rainbow",
+    // IntelliCode
+    "visualstudioexptteam.vscodeintellicode",
+    // IntelliCode API Usage Examples
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    // Live Server
+    "ritwickdey.liveserver",
+    // Material Icon Theme
+    "pkief.material-icon-theme",
+    // Portuguese (Brazil) Language Pack for Visual Studio Code
+    "ms-ceintl.vscode-language-pack-pt-br",
+    // Prettier
+    "esbenp.prettier-vscode",
+    // Thunder Client
+    "rangav.vscode-thunder-client"
+  ]
+}

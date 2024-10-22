@@ -1,0 +1,61 @@
+{
+  /* Configurações do VS Code */
+  // Tamanho da fonte: 19
+  "editor.fontSize": 19,
+  // Salvamento automático: periodicamente
+  "files.autoSave": "afterDelay",
+  // Quebrar linhas automaticamente para caber na visualização
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+
+  /* Configuração da extenção Code Spell Checker */
+  // Idioma de correção: Inglês e Português
+  "cSpell.language": "en,pt,pt_BR",
+  // Dicionário do workspace (ignoradas pelo corretor)
+  "cSpell.userWords": ["Raminelli", "svgs"],
+
+  /* Configurações da extenção Highlight Matching Tag */
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "borderWidth": "0 0 0 2px",
+          "borderStyle": "solid",
+          "borderColor": "red",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      },
+      "right": {
+        "custom": {
+          "borderWidth": "0 2px 0 0",
+          "borderStyle": "solid",
+          "borderColor": "red",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      }
+    }
+  },
+
+  /* Configurações da extenção Live Server */
+  // Porta usada: 5500
+  "liveServer.settings.port": 5500,
+  // Verificar tags essenciais (<head> e <body>)
+  "liveServer.settings.donotVerifyTags": false,
+
+  /* Configurações da extenção Material Icon Theme */
+  // Tema de ícones: Material Icon Theme
+  "workbench.iconTheme": "material-icon-theme",
+
+  /* Configurações da extenção Prettier */
+  // Formatador padrão: Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Comprimento máximo da linha antes de quebrá-la: 900
+  "prettier.printWidth": 900,
+  // Adicionar ponto-e-vírgula (;) no final do código: false
+  "prettier.semi": false,
+  // Aplicar formatador automaticamente ao salvar o arquivo usando Ctrl + S: true
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
+}
