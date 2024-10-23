@@ -14,6 +14,7 @@
 
   /* Background em uso (alterado entre light e dark mode) */
   --background: var(--background-claro);
+  --background-contraste: var(--background-escuro);
   --background-transparente: var(--background-claro-transparente);
 }
 

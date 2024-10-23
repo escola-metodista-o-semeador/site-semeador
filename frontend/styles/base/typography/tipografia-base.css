@@ -13,7 +13,9 @@
   /* Cor das letras */
   --letra-branca: var(--branco); /* para dark mode */
   --letra-preta: var(--preto); /* para light mode */
+  /* Cor das letras em uso */
   --letra-uso: var(--letra-preta); /* padrão (light mode) */
+  --letra-oposta: var(--letra-branca);
 }
 
 /* Tipografia padrão */
