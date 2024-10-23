@@ -32,6 +32,23 @@ button,
   transition-timing-function: ease-in-out;
 }
 
+/* Botões sem sombra, background ou contorno */
+button.flat-button {
+  box-shadow: none;
+  padding: 0;
+  color: var(--letra-uso);
+  /* Ícone interno */
+  & > svg {
+    min-width: 35px;
+  }
+  /* Efeito hover */
+  &:hover {
+    background-color: var(--background-contraste);
+    color: var(--letra-oposta);
+    box-shadow: var(--shadow01);
+  }
+}
+
 /* Botão primário */
 .botao-primario {
   /* Aparência */
