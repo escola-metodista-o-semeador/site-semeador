@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* Componente botão: base para todas as telas */
+
+/* Base de objetos button */
+button {
+  /* Mouse */
+  cursor: pointer;
+
+  /* Remover formatação padrão */
+  border: none;
+  background: none;
+}
+
+/* Estilo geral para botões */
+button,
+.botao {
+  /* Cantos arredondados */
+  border-radius: var(--corner-extra-small);
+
+  /* Sombras */
+  box-shadow: var(--shadow01);
+
+  /* Flexbox */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  /* Transição */
+  transition-property: padding, font-size;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+/* Botão primário */
+.botao-primario {
+  /* Aparência */
+  background-color: var(--cor-primaria);
+  border: solid 2px var(--cor-primaria);
+
+  /* Tipografia */
+  color: var(--letra-branca);
+
+  /* Efeito hover */
+  &:hover {
+  }
+}
+
+/* Botão secundário */
+.botao-secundario {
+  /* Aparência */
+  border: solid 2px var(--cor-secundaria);
+
+  /* Tipografia */
+  color: var(--cor-secundaria);
+
+  /* Efeito hover */
+  &:hover {
+  }
+}

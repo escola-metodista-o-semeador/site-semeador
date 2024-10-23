@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Botões para desktop: vw maior que 1025px */
+
+button,
+.botao {
+  /* Tipografia */
+  font-size: 1.25rem; /* 20px */
+
+  /* Espaçamento */
+  padding: 8px 16px;
+  gap: 10px;
+
+  /* Ícone */
+  & .icone {
+    width: 30px;
+    height: 30px;
+  }
+}
