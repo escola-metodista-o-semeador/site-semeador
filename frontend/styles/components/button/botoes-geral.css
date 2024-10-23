@@ -27,7 +27,7 @@ button,
   align-items: center;
 
   /* Transição */
-  transition-property: padding, font-size;
+  transition-property: background-color, border-color, color, font-size, padding;
   transition-duration: 1s;
   transition-timing-function: ease-in-out;
 }
@@ -43,6 +43,8 @@ button,
 
   /* Efeito hover */
   &:hover {
+    background-color: var(--roxo-medio);
+    border-color: var(--roxo-medio);
   }
 }
 
@@ -56,5 +58,8 @@ button,
 
   /* Efeito hover */
   &:hover {
+    background-color: var(--branco02-transparente1);
+    /* border-color: var(--cinza-claro); */
+    /* color: var(--letra-preta); */
   }
 }
