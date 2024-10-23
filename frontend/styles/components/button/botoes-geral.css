@@ -59,7 +59,7 @@ button,
   /* Efeito hover */
   &:hover {
     background-color: var(--branco02-transparente1);
-    /* border-color: var(--cinza-claro); */
-    /* color: var(--letra-preta); */
+    border-color: var(--laranja-medio);
+    color: var(--laranja-medio);
   }
 }
