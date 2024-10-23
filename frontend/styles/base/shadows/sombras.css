@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* Sombras pré-definidas */
+
+:root {
+  --shadow01: 0 0 2px rgba(0, 0, 0, 0.24), 0 2px 4px rgba(0, 0, 0, 0.28);
+}
