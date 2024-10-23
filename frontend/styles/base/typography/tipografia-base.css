@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* Tipografia base para todas as telas */
+
+/* Importação da fonte Roboto do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Variáveis para tipografia */
+:root {
+  /* Família da fonte */
+  --fonte-titulo: "Roboto", Arial, Helvetica, sans-serif;
+  --fonte-corpo: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  /* Cor das letras */
+  --letra-branca: var(--branco);
+  --letra-preta: var(--preto);
+  --letra-uso: var(--letra-branca); /* padrão (light mode): letra-branca */
+}
+
+/* Tipografia padrão */
+body {
+  font-family: var(--fonte-corpo);
+  font-size: 1rem;
+  color: var(--letra-uso);
+}
+
+/* Títulos */
+h1,
+h2,
+h3,
+h4 {
+  /* Fonte de títulos */
+  font-family: var(--fonte-titulo);
+}
+
+/* Títulos H1 */
+h1 {
+  font-weight: 600;
+}
+/* Título H2 */
+h2 {
+  font-weight: 500;
+}
+/* Título H3 */
+h3 {
+  font-weight: 500;
+}
+/* Título H4 */
+h4 {
+  font-weight: 500;
+}
+
+/* Parágrafos */
+p {
+}
+
+/* Links */
+a {
+}
