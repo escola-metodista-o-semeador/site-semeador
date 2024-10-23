@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Base styles */
+/* Cores */
+@import url("base/colors/cores.css");
+
+/* Tipografia */
+@import url("base/typography/tipografia-base.css");
+
+/* Background */
+@import url("base/background/background.css");
+
+/* Sombras */
+@import url("base/shadows/sombras.css");
+
+/* Container */
+@import url("base/container/container.css");
+
+/* Outras variáveis */
+@import url("base/outras-variaveis.css");
+
+/* Componentes */
+/* Botões */
+@import url("components/button/botoes-geral.css");
+@import url("components/button/botoes-mobile.css") screen and (max-width: 1024px);
+@import url("components/button/botoes-desktop.css") screen and (min-width: 1025px);
+
+/* Layout */
+/* Header */
+/* Navbar */
+/* Footer */
