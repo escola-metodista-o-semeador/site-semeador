@@ -9,4 +9,7 @@
   --corner-large: 16px;
   --corner-extra-large: 28px;
   --corner-full: 50%;
+
+  /* Efeito backdrop-blur */
+  --blur-padrao: 32px;
 }
