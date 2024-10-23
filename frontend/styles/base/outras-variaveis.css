@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* Outras variáveis CSS para serem usadas no site */
+
+:root {
+  /* Cantos arredondados (do Material 3 Design Kit) */
+  --corner-extra-small: 4px;
+  --corner-small: 8px;
+  --corner-medium: 12px;
+  --corner-large: 16px;
+  --corner-extra-large: 28px;
+  --corner-full: 50%;
+}
