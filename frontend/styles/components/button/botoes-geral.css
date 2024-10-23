@@ -28,7 +28,7 @@ button,
 
   /* Transição */
   transition-property: background-color, border-color, color, font-size, padding;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
 
