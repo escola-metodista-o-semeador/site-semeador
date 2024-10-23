@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* Container do site */
+
+:root {
+  /* Container mobile */
+  --container: 91vw;
+
+  /* Calcular padding lateral para container */
+  --padding-lateral-container: calc((100vw - var(--container)) / 2);
+}
+
+/* Classe que adiciona padding lateral para limitar um container */
+.pd-container {
+  padding-left: var(--padding-lateral-container) !important;
+  padding-right: var(--padding-lateral-container) !important;
+
+  transition: padding 0.5s ease;
+}
+
+/* Container desktop */
+@media screen and (min-width) {
+  :root {
+    --container: 1240px;
+  }
+}
