@@ -10,4 +10,9 @@ nav#nav-principal {
 
   /* Ocultar navbar no mobile */
   transform: translateX(100%);
+
+  & ul {
+    /* Remover marcadores */
+    list-style-type: none;
+  }
 }
