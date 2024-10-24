@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* Navbar mobile */
+/* vw menor que 1344px */
+
+nav#nav-principal {
+  /* Posição: fixa na lateral direita */
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  /* Ocultar navbar no mobile */
+  transform: translateX(100%);
+}

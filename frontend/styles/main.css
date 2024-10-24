@@ -28,4 +28,5 @@
 /* Layout */
 /* Header */
 /* Navbar */
+@import url("layout/navbar/navbar-mobile.css") screen and (max-width: 1344px);
 /* Footer */
