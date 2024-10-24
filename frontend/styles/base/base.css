@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* Resetar margins e paddings */
+* {
+  margin: 0;
+  padding: 0;
+}

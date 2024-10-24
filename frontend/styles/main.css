@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url("base/base.css");
+
 /* Base styles */
 /* Cores */
 @import url("base/colors/cores.css");
