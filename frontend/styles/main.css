@@ -30,7 +30,7 @@
 /* Layout */
 /* Header */
 @import url("layout/header/header-geral.css");
-@import url("layout/header/header-mobile.css") screen and (max-width: 624px);
+@import url("layout/header/header-mobile.css") screen and (max-width: 696px);
 /* Navbar */
 @import url("layout/navbar/navbar-mobile.css") screen and (max-width: 1344px);
 @import url("layout/navbar/navbar-desktop.css") screen and (min-width: 1345px);
