@@ -33,3 +33,39 @@ function getTemaAtual() {
 function alterarTema() {
   temaAtual = temaAtual == "light" ? "dark" : "light"
 }
+
+/**
+ * Aplica o tema (claro ou escuro), alterando as variáveis CSS de cores e o botão de tema.
+ *
+ * @param {string} theme O tema definido pelo navegador ou alterado pelo usuário ("light" ou "dark").
+ */
+function aplicarTema(theme) {
+  // Obter elemento raiz (:root)
+  const root = document.documentElement
+
+  if (theme == "light") {
+    /* Aplicar tema claro */
+
+    // Background
+    root.style.setProperty("--background", "var(--background-claro)")
+    root.style.setProperty("--background-contraste", "var(--background-escuro)")
+
+    // Background transparentes
+    root.style.setProperty("--background-transparente", "var(--background-claro-transparente)")
+
+    // Cor da letra
+    root.style.setProperty("--letra-uso", "var(--letra-preta)")
+  } else {
+    /* Aplicar tema escuro */
+
+    // Backgrounds
+    root.style.setProperty("--background", "var(--background-escuro)")
+    root.style.setProperty("--background-contraste", "var(--background-claro)")
+
+    // Background transparentes
+    root.style.setProperty("--background-transparente", "var(--background-escuro-transparente)")
+
+    // Cor da letra
+    root.style.setProperty("--letra-uso", "var(--letra-branca)")
+  }
+}
