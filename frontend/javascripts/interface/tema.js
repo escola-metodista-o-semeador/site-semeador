@@ -31,5 +31,5 @@ function getTemaAtual() {
  * Altera o valor do tema atual (light ou dark).
  */
 function alterarTema() {
-  window.alert("Botão clicado!")
+  temaAtual = temaAtual == "light" ? "dark" : "light"
 }
