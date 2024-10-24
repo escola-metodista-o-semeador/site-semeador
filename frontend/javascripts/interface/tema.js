@@ -41,9 +41,11 @@ function alterarTema() {
 /**
  * Aplica o tema (claro ou escuro), alterando as variáveis CSS de cores e o botão de tema.
  *
- * @param {string} theme O tema definido pelo navegador ou alterado pelo usuário ("light" ou "dark").
+ * @param {string} theme O tema definido pelo navegador ou alterado pelo usuário ("light" ou "dark"). Por padrão, é tema claro ("light").
  */
-function aplicarTema(theme) {
+function aplicarTema(
+  theme = "light" // Tema a ser aplicado (padrão: claro)
+) {
   // Obter elemento raiz (:root)
   const root = document.documentElement
 
