@@ -31,4 +31,5 @@
 /* Header */
 /* Navbar */
 @import url("layout/navbar/navbar-mobile.css") screen and (max-width: 1344px);
+@import url("layout/navbar/navbar-desktop.css") screen and (min-width: 1345px);
 /* Footer */
