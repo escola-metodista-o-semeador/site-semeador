@@ -31,7 +31,11 @@ function getTemaAtual() {
  * Altera o valor do tema atual (light ou dark).
  */
 function alterarTema() {
+  // Alterar valor da variável
   temaAtual = temaAtual == "light" ? "dark" : "light"
+
+  // Aplicar o tema
+  aplicarTema(temaAtual)
 }
 
 /**
