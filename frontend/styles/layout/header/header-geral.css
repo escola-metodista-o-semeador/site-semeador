@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* Header (cabeçalho) */
+/* Estilo para todas as telas e alguns para mobile que podem ser sobrescritos */
+
+header#header-principal {
+  /* Aparência */
+  background-color: var(--background-transparente);
+  box-shadow: var(--shadow01);
+
+  /* Dimensões */
+  height: 60px;
+
+  /* Layout e flexbox */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo do header */
+#logo-header {
+  /* Dimensões */
+  height: 50px;
+}
+
+/* Containers do botão */
+#botoes-header {
+  /* Layout e flexbox */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+}
+
+/* Ocultar ícone de dark mode */
+#icone-light-mode {
+  display: none;
+}
