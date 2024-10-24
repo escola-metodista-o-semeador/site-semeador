@@ -6,6 +6,8 @@
 
 // Obter tema atual do sistema
 let temaAtual = getTemaAtual()
+// Aplicar o tema atual
+aplicarTema(temaAtual)
 
 // Obter botão de menu pelo DOM
 const botaoTema = document.getElementById("botao-tema")
