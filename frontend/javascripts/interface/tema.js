@@ -51,6 +51,10 @@ function aplicarTema(
   // Obter elemento raiz (:root)
   const root = document.documentElement
 
+  // Obter ícones dos botões de tema
+  const lightIcon = document.getElementById("icone-light-mode")
+  const darkIcon = document.getElementById("icone-dark-mode")
+
   if (theme == "light") {
     /* Aplicar tema claro */
 
@@ -63,6 +67,11 @@ function aplicarTema(
 
     // Cor da letra
     root.style.setProperty("--letra-uso", "var(--letra-preta)")
+
+    // Ocultar botão de modo claro
+    lightIcon.style.display = "none"
+    // Exibir botão de modo escuro
+    darkIcon.style.display = "block"
   } else {
     /* Aplicar tema escuro */
 
@@ -75,5 +84,10 @@ function aplicarTema(
 
     // Cor da letra
     root.style.setProperty("--letra-uso", "var(--letra-branca)")
+
+    // Exibir botão de modo claro
+    lightIcon.style.display = "block"
+    // Ocultar botão de modo escuro
+    darkIcon.style.display = "none"
   }
 }
