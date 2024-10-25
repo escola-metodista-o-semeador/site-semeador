@@ -55,6 +55,10 @@ function aplicarTema(
   const lightIcon = document.getElementById("icone-light-mode")
   const darkIcon = document.getElementById("icone-dark-mode")
 
+  // Obter e adicionar classe ao body
+  const body = document.querySelector("body")
+  body.classList.add("alterar-tema")
+
   if (theme == "light") {
     /* Aplicar tema claro */
 
@@ -92,4 +96,12 @@ function aplicarTema(
     // Ocultar botão de modo escuro
     darkIcon.style.display = "none"
   }
+
+  // Remover classe de transição de tema depois de um tempo
+  setTimeout(
+    () => {
+      body.classList.remove("alterar-tema")
+    },
+    550 // 0.55 segundos
+  )
 }
