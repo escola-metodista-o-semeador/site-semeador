@@ -67,6 +67,7 @@ function aplicarTema(
 
     // Cor da letra
     root.style.setProperty("--letra-uso", "var(--letra-preta)")
+    root.style.setProperty("--letra-oposta", "var(--letra-branca)")
 
     // Ocultar botão de modo claro
     lightIcon.style.display = "none"
@@ -84,6 +85,7 @@ function aplicarTema(
 
     // Cor da letra
     root.style.setProperty("--letra-uso", "var(--letra-branca)")
+    root.style.setProperty("--letra-oposta", "var(--letra-preta)")
 
     // Exibir botão de modo claro
     lightIcon.style.display = "block"
