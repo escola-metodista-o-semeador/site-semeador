@@ -7,7 +7,7 @@ button,
   font-size: 1.25rem; /* 20px */
 
   /* Espaçamento */
-  padding: 8px 16px;
+  padding-inline: 14px; /* padding left e right */
   gap: 10px;
 
   /* Ícone */

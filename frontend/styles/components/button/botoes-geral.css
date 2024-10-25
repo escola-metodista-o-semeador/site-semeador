@@ -20,6 +20,9 @@ button,
   /* Sombras */
   box-shadow: var(--shadow01);
 
+  /* Espaçamento */
+  padding-block: 6px; /* padding top e bottom */
+
   /* Flexbox */
   display: flex;
   flex-direction: row;
