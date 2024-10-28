@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* Variáveis CSS de cores */
+
+:root {
+  /* Cores da logo do Semeador */
+  --roxo-escuro: #3e498c;
+  --roxo-medio: #6d76a6;
+  --roxo-claro: #999fbf;
+
+  --laranja-escuro: #f26444;
+  --laranja-medio: #f2785c;
+  --laranja-claro: #f2937e;
+
+  /* Cores absolutas */
+  --branco: white;
+  --preto: black;
+
+  /* Cores claras e branco */
+  --branco01: #fafafa;
+  --branco01-transparente1: rgba(250, 250, 250, 0.85);
+  --branco02: #e3e3e3;
+  --branco02-transparente1: rgb(227, 227, 227, 0.85);
+
+  --cinza-claro: #d9d9d9;
+
+  /* Cores escuras e preto */
+  --preto01: #121212;
+  --preto01-transparente1: rgba(18, 18, 18, 0.95);
+  --preto01-transparente2: rgba(18, 18, 18, 0.8);
+  --preto02: #161616;
+  --preto02-transparente1: rgba(22, 22, 22, 0.85);
+
+  /* Cores em uso */
+  --cor-primaria: var(--roxo-escuro);
+  --cor-secundaria: var(--laranja-escuro);
+}
+
+/* Classe usada para adicionar efeito de transição ao alterar o tema claro ou escuro */
+.alterar-tema,
+.alterar-tema * {
+  transition: background-color 0.5s ease-in-out, color 0.05s ease !important;
+}

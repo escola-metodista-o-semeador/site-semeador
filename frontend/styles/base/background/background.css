@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* Background */
+
+/* Variáveis de background */
+:root {
+  /* Background claro */
+  --background-claro: var(--branco01);
+  --background-claro-transparente: var(--branco01-transparente1);
+
+  /* Background escuro */
+  --background-escuro-abs: var(--preto);
+  --background-escuro: var(--preto01);
+  --background-transparente: var(--preto01-transparente1);
+
+  /* Background em uso (alterado entre light e dark mode) */
+  --background: var(--background-claro);
+  --background-contraste: var(--background-escuro);
+  --background-transparente: var(--background-claro-transparente);
+}
+
+/* Background padrão da página */
+body {
+  background-color: var(--background);
+}
+
+/* Classes */
+/* Background opaco */
+.bg-primario {
+  background-color: var(--background);
+}
+
+/* Background transparente */
+.bg-transparente {
+  background-color: var(--background-transparente);
+}
+
+/* Background roxo */
+.bg-roxo {
+  background-color: var(--roxo-claro);
+}

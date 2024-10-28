@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* Header mobile */
+/* vw <= 624px */
+
+/* Ocultar botão de doação */
+#botao-doacao-header {
+  display: none;
+}
+
+/* Estilo alternativo para botão menu (mais compacto) */
+#botao-menu-mobile {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+
+  /* Ocultar o texto */
+  & > span {
+    display: none;
+  }
+
+  /* Aumentar o ícone e alterar sua cor */
+  & > svg {
+    color: var(--letra-uso);
+    height: 45px;
+    width: 45px;
+  }
+
+  /* Efeito hover */
+  &:hover {
+    background-color: var(--cor-primaria);
+    box-shadow: var(--shadow01);
+    & svg {
+      color: var(--letra-branca);
+    }
+  }
+}

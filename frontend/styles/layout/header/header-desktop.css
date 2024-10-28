@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* Header desktop */
+/* vw >= 1345px */
+
+header#header-principal {
+  /* Aumentar altura */
+  height: 70px;
+}
