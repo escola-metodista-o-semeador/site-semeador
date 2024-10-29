@@ -44,8 +44,6 @@ nav#nav-principal {
       height: 55px;
 
       /* Flexbox */
-      display: flex;
-      align-items: center;
       justify-content: flex-start;
 
       /* Corner (visível no hover) */
@@ -68,11 +66,15 @@ nav#nav-principal {
         margin-right: 16px;
       }
 
+      /* Linha lateral sempre visível no link da página atual */
+      &.link-pagina-atual::before {
+        height: inherit;
+      }
+
       /* Efeito hover */
       &:hover {
         background-color: rgba(255, 255, 255, 0.2);
         box-shadow: var(--shadow03);
-
         /* Exibir linha lateral */
         &::before {
           height: inherit;

@@ -2,8 +2,88 @@
 /* Navbar desktop */
 /* vw >= 1344px */
 
+nav#nav-principal {
+  width: 100%;
+  height: 100%;
+  /* Flexbox */
+  display: flex;
+  /* Espaçamento */
+  margin-inline: 10px;
+
+  /* Lista de links */
+  & > ul {
+    height: inherit;
+    /* Flexbox */
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+
+    & > li {
+      width: inherit;
+      height: inherit;
+
+      /* Blocos de links */
+      & > a {
+        /* Tipografia */
+        font-size: 1.063rem; /* 17px */
+
+        /* Dimensões */
+        height: inherit;
+        min-width: 75px;
+        width: fit-content;
+        /* Espaçamento */
+        padding-inline: 5px;
+        /* Flexbox */
+        justify-content: center;
+        flex-direction: column;
+
+        position: relative;
+
+        /* Linha inferior (para efeito hover) */
+        &::after {
+          content: "";
+          /* Cor da linha */
+          background-color: var(--cor-secundaria);
+          /* Espessura */
+          height: 2px;
+          /* Ocultar */
+          width: 0;
+          /* Posição */
+          position: absolute;
+          bottom: 0;
+          /* Transição */
+          transition: width 0.5s;
+        }
+        /* Linha inferior sempre visível no link da página atual */
+        &.link-pagina-atual::after {
+          width: 100%;
+        }
+
+        /* Transição pro hover */
+        transition-property: color, background-color, box-shadow;
+        transition-duration: 0.5s;
+        /* Efeito hover */
+        &:hover {
+          color: var(--cor-secundaria);
+
+          /* Exibir linha */
+          &::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
 /* Ocultar os botões do navbar mobile */
 #botao-menu-mobile,
 #botao-fechar-navbar {
   display: none;
+}
+
+/* Efeito hover no modo escuro */
+.dark-mode nav#nav-principal a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
