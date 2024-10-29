@@ -34,9 +34,27 @@ nav#nav-principal {
         width: fit-content;
         /* Espaçamento */
         padding-inline: 5px;
-
         /* Flexbox */
         justify-content: center;
+        flex-direction: column;
+
+        position: relative;
+
+        /* Linha inferior (para efeito hover) */
+        &::after {
+          content: "";
+          /* Cor da linha */
+          background-color: var(--cor-secundaria);
+          /* Espessura */
+          height: 2px;
+          /* Ocultar */
+          width: 0;
+          /* Posição */
+          position: absolute;
+          bottom: 0;
+          /* Transição */
+          transition: width 0.5s;
+        }
 
         /* Transição pro hover */
         transition-property: color, background-color, box-shadow;
@@ -44,6 +62,11 @@ nav#nav-principal {
         /* Efeito hover */
         &:hover {
           color: var(--cor-secundaria);
+
+          /* Exibir linha */
+          &::after {
+            width: 100%;
+          }
         }
       }
     }
