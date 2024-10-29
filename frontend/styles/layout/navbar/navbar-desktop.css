@@ -2,6 +2,37 @@
 /* Navbar desktop */
 /* vw >= 1344px */
 
+nav#nav-principal {
+  width: 100%;
+  /* Flexbox */
+  justify-content: flex-start;
+
+  /* Lista de links */
+  & > ul {
+    /* Flexbox */
+    flex-direction: row;
+
+    & > li {
+      height: 100%;
+      /* Espaçamento */
+      padding-inline: 10px;
+
+      /* Blocos de links */
+      & > a {
+        /* Tipografia */
+        font-size: 1.063rem; /* 17px */
+
+        /* Dimensões */
+        height: 100%;
+        min-width: 75px;
+        width: fit-content;
+        /* Flexbox */
+        justify-content: center;
+      }
+    }
+  }
+}
+
 /* Ocultar os botões do navbar mobile */
 #botao-menu-mobile,
 #botao-fechar-navbar {

@@ -44,8 +44,6 @@ nav#nav-principal {
       height: 55px;
 
       /* Flexbox */
-      display: flex;
-      align-items: center;
       justify-content: flex-start;
 
       /* Corner (visível no hover) */

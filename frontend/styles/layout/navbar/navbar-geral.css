@@ -9,6 +9,10 @@ nav#nav-principal {
     text-decoration: none;
     color: var(--letra-uso);
 
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+
     /* Transição (pro efeito hover) */
     transition-property: background-color, box-shadow;
     transition-duration: 0.5s;
