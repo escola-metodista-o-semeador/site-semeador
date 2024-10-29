@@ -12,6 +12,16 @@ nav#nav-principal {
     /* Transição (pro efeito hover) */
     transition-property: background-color, box-shadow;
     transition-duration: 0.5s;
+
+    /* Link da página atual */
+    &.link-pagina-atual {
+      color: var(--cor-primaria);
+
+      &::before,
+      &::after {
+        background-color: var(--cor-primaria);
+      }
+    }
   }
 
   /* Lista de links */
