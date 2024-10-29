@@ -25,7 +25,11 @@ nav#nav-principal {
   padding-block: 20px;
 
   /* Ocultar navbar no mobile */
-  /* transform: translateX(100%); */
+  transform: translateX(110%);
+  transition: transform 0.5s;
+  &.show {
+    transform: translateX(0);
+  }
 
   /* Lista de links */
   & > ul {
