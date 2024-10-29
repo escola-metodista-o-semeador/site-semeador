@@ -19,7 +19,7 @@
 
 ## 🤝Parceria
 <p align="justify">Esse projeto é desenvolvido como parte da disciplina Projeto Integrador Interdisciplinar dos cursos de <strong>Ciência da Computação</strong> e <strong>Inteligência Artificial e Ciência de Dados</strong> do <strong><a href="https://www.maua.br" target="_blank">Instituto Mauá de Tecnologia</a></strong>, em parceria com a <strong>Escola Metodista O Semeador</strong>.</p>
-<div align="center" style="display: flex; flex-direction: row; align-items: center; width: 100%; justify-content: center; gap: 10px;">
+<div align="center" style="display: flex; flex-direction: row; align-items: center; width: 100%; justify-content: center; gap: 10px; flex-wrap: wrap;">
     <img height="175px" src="https://www.maua.br/images/logo-IMT.png" alt="Logo Instituto Mauá de Tecnologia">
     <img height="175px" src="https://raw.githubusercontent.com/escola-metodista-o-semeador/site-semeador/706b08c765f0309bf73ce519a4f867b6d7b86523/frontend/assets/logo/logo-semeador-stacked.svg" alt="Logo da Escola Metodista de Educação Especial O Semeador">
 </div>
