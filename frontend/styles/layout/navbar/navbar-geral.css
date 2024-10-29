@@ -15,11 +15,11 @@ nav#nav-principal {
 
     /* Link da página atual */
     &.link-pagina-atual {
-      color: var(--cor-primaria);
+      color: var(--cor-primaria-tema);
 
       &::before,
       &::after {
-        background-color: var(--cor-primaria);
+        background-color: var(--cor-primaria-tema);
       }
     }
   }
