@@ -33,3 +33,12 @@
 ### Ambiente de desenvolvimento e controle de versão
 - Visual Studio Code
 - Git e GitHub Desktop
+
+## 📜Histórico de Versões
+### Versões pré-lançamento
+#### Versão 0.0.1 - 2024-10-25
+**Commit:** <a href="https://github.com/escola-metodista-o-semeador/site-semeador/commit/83f0a39df0fc0d69e0e2df637fd39c840704c38e" target="_blank">`83f0a39`</a>
+- Criação do cabeçalho, com a logo do Semeador e botões de "Alterar Modo Claro/Escuro" e 
+- Modo claro e escuro e um botão de alterar o tema no cabeçalho.
+- Estilização dos componentes de botões (botões primários, botões secundários e botões flat).
+<br>
