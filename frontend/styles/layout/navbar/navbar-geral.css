@@ -19,7 +19,7 @@ nav#nav-principal {
 
     /* Link da página atual */
     &.link-pagina-atual {
-      color: var(--cor-primaria-tema);
+      color: var(--cor-primaria-tema) !important;
 
       &::before,
       &::after {

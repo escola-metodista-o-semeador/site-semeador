@@ -4,18 +4,24 @@
 
 nav#nav-principal {
   width: 100%;
+  height: 100%;
   /* Flexbox */
-  justify-content: flex-start;
+  display: flex;
+  /* Espaçamento */
+  margin-inline: 10px;
 
   /* Lista de links */
   & > ul {
+    height: inherit;
     /* Flexbox */
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
 
     & > li {
-      height: 100%;
-      /* Espaçamento */
-      padding-inline: 10px;
+      width: inherit;
+      height: inherit;
 
       /* Blocos de links */
       & > a {
@@ -23,11 +29,22 @@ nav#nav-principal {
         font-size: 1.063rem; /* 17px */
 
         /* Dimensões */
-        height: 100%;
+        height: inherit;
         min-width: 75px;
         width: fit-content;
+        /* Espaçamento */
+        padding-inline: 5px;
+
         /* Flexbox */
         justify-content: center;
+
+        /* Transição pro hover */
+        transition-property: color, background-color, box-shadow;
+        transition-duration: 0.5s;
+        /* Efeito hover */
+        &:hover {
+          color: var(--cor-secundaria);
+        }
       }
     }
   }
@@ -37,4 +54,9 @@ nav#nav-principal {
 #botao-menu-mobile,
 #botao-fechar-navbar {
   display: none;
+}
+
+/* Efeito hover no modo escuro */
+.dark-mode nav#nav-principal a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
