@@ -47,10 +47,33 @@ nav#nav-principal {
       /* Corner (visível no hover) */
       border-radius: 0 var(--corner-small) var(--corner-small) 0;
 
+      /* Linha lateral (para efeito hover) */
+      &::before {
+        content: "";
+        /* Cor da linha */
+        background-color: var(--cor-secundaria);
+        /* Espessura da linha */
+        width: 2px;
+        /* Largura da linha (para ocultar sem o hover) */
+        height: 0;
+        /* Transição */
+        transition-property: height, margin-right;
+        transition-duration: 0.5s;
+
+        /* Espaço entre linha e links (simula um padding-left do <a>) */
+        margin-right: 16px;
+      }
+
       /* Efeito hover */
       &:hover {
         background-color: var(--background);
         box-shadow: var(--shadow03);
+
+        /* Exibir linha lateral */
+        &::before {
+          height: inherit;
+          margin-right: 20px;
+        }
       }
     }
   }
