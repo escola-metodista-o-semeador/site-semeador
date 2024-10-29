@@ -11,6 +11,9 @@ Nova versão em desenvolvimento (hospedada pelo GitHub Pages): <a href="frontend
 - <a href="https://github.com/Robertkevyngg" target="_blank">Robert Kevyn Gonçalves Gomes</a>  
 - <a href="https://github.com/victhorcastro" target="_blank">Victhor das Virgens Lima Castro</a>
 
-
-## Parceria
+## 🤝Parceria
 Esse projeto é desenvolvido como parte da disciplina Projeto Integrador Interdisciplinar dos cursos de Ciência da Computação e Inteligência Artificial e Ciência de Dados do Instituto Mauá de Tecnologia, em parceria com a Escola Metodista O Semeador.
+<div style="display: flex; flex-direction: row; align-items: center; width: 100%; justify-content: center; gap: 10px;">
+    <img height="175px" src="https://www.maua.br/images/logo-IMT.png" alt="Logo Instituto Mauá de Tecnologia">
+    <img height="175px" src="https://raw.githubusercontent.com/escola-metodista-o-semeador/site-semeador/706b08c765f0309bf73ce519a4f867b6d7b86523/frontend/assets/logo/logo-semeador-stacked.svg" alt="Logo da Escola Metodista de Educação Especial O Semeador">
+</div>
