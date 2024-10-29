@@ -62,6 +62,9 @@ function aplicarTema(
   if (theme == "light") {
     /* Aplicar tema claro */
 
+    // Remover classe dark-mode do <body>
+    body.classList.remove("dark-mode")
+
     // Background
     root.style.setProperty("--background", "var(--background-claro)")
     root.style.setProperty("--background-contraste", "var(--background-escuro)")
@@ -73,12 +76,18 @@ function aplicarTema(
     root.style.setProperty("--letra-uso", "var(--letra-preta)")
     root.style.setProperty("--letra-oposta", "var(--letra-branca)")
 
+    // Cores de tema
+    root.style.setProperty("--cor-primaria-tema", "var(--cor-primaria)")
+
     // Ocultar botão de modo claro
     lightIcon.style.display = "none"
     // Exibir botão de modo escuro
     darkIcon.style.display = "block"
   } else {
     /* Aplicar tema escuro */
+
+    // Adicionar classe dark-mode ao <body>
+    body.classList.add("dark-mode")
 
     // Backgrounds
     root.style.setProperty("--background", "var(--background-escuro)")
@@ -90,6 +99,9 @@ function aplicarTema(
     // Cor da letra
     root.style.setProperty("--letra-uso", "var(--letra-branca)")
     root.style.setProperty("--letra-oposta", "var(--letra-preta)")
+
+    // Cores de tema
+    root.style.setProperty("--cor-primaria-tema", "var(--roxo-medio)")
 
     // Exibir botão de modo claro
     lightIcon.style.display = "block"
