@@ -29,6 +29,9 @@ button,
   justify-content: center;
   align-items: center;
 
+  /* Não quebrar texto por padrão */
+  text-wrap: nowrap;
+
   /* Transição */
   transition-property: background-color, border-color, color, font-size, padding;
   transition-duration: 0.5s;
