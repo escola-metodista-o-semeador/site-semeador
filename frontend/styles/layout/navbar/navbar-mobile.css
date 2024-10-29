@@ -43,6 +43,15 @@ nav#nav-principal {
       display: flex;
       align-items: center;
       justify-content: flex-start;
+
+      /* Corner (visível no hover) */
+      border-radius: 0 var(--corner-small) var(--corner-small) 0;
+
+      /* Efeito hover */
+      &:hover {
+        background-color: var(--background);
+        box-shadow: var(--shadow03);
+      }
     }
   }
 }
