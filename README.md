@@ -1,5 +1,7 @@
-<h1 align="center">Projeto Integrador Interdisciplinar: Desenvolvimento de Novo Site para a Escola Metodista O Semeador.</h1>
+<h1 align="center">Projeto Integrador Interdisciplinar: Desenvolvimento de Novo Site para a Escola Metodista O Semeador</h1>
 <p align="justify">Este projeto visa a criação de uma nova versão do site para a Escola Metodista de Educação Especial O Semeador, uma instituição beneficente, localizada em São Caetano do Sul - SP, que atende crianças e adolescentes com deficiência intelectual, múltiplas deficiências e Transtorno do Espectro Autista (TEA). A nova versão busca aprimorar a visibilidade da escola e otimizar a experiência de doadores e visitantes, corrigindo problemas encontrados na versão anterior, como SEO, segurança e funcionalidade de formulários.</p>
+
+📒<a href="https://github.com/escola-metodista-o-semeador/site-semeador" target="_blank">Repositório no GitHub</a>
 
 ## 🌐Site antigo e atual
 <p align="center">
