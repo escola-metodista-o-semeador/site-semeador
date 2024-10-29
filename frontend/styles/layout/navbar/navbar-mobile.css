@@ -8,11 +8,19 @@ nav#nav-principal {
   top: 0;
   right: 0;
 
-  /* Ocultar navbar no mobile */
-  transform: translateX(100%);
+  /* Dimensões */
+  height: 100vh;
+  width: 64vw;
 
-  & ul {
-    /* Remover marcadores */
-    list-style-type: none;
-  }
+  /* Aparência */
+  background-color: var(--background-transparente);
+  backdrop-filter: blur(var(--blur-padrao));
+  box-shadow: var(--shadow02);
+
+  /* Espaçamento */
+  padding-block: 20px;
+  /* padding-right: var(--padding-lateral-container); */
+
+  /* Ocultar navbar no mobile */
+  /* transform: translateX(100%); */
 }
