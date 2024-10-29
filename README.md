@@ -3,7 +3,7 @@
 
 ## 🌐Site antigo e atual
 <p align="center">
-    🖥️<a href="http://escolaosemeador.com.br" target="_blank">Versão anterior do site (Último acesso em 28 de Outubro de 2024)</a> 
+    🖥️<a href="http://escolaosemeador.com.br" target="_blank">Versão anterior do site (último acesso em 28 de Outubro de 2024)</a> 
     <br>
     🚀<a href="frontend/pages/index.html" target="_blank">Nova versão em desenvolvimento (hospedada pelo GitHub Pages)</a>
 </p>
@@ -21,3 +21,15 @@
     <img height="175px" src="https://www.maua.br/images/logo-IMT.png" alt="Logo Instituto Mauá de Tecnologia">
     <img height="175px" src="https://raw.githubusercontent.com/escola-metodista-o-semeador/site-semeador/706b08c765f0309bf73ce519a4f867b6d7b86523/frontend/assets/logo/logo-semeador-stacked.svg" alt="Logo da Escola Metodista de Educação Especial O Semeador">
 </div>
+
+## 🛠️Tecnologias Utilizadas
+### Front-end
+- HTML
+- CSS
+- JavaScript
+### Back-end
+- NodeJS
+- MongoDB
+### Ambiente de desenvolvimento e controle de versão
+- Visual Studio Code
+- Git e GitHub Desktop
