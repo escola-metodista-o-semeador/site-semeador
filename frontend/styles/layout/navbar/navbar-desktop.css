@@ -55,6 +55,10 @@ nav#nav-principal {
           /* Transição */
           transition: width 0.5s;
         }
+        /* Linha inferior sempre visível no link da página atual */
+        &.link-pagina-atual::after {
+          width: 100%;
+        }
 
         /* Transição pro hover */
         transition-property: color, background-color, box-shadow;

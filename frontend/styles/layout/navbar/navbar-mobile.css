@@ -66,6 +66,11 @@ nav#nav-principal {
         margin-right: 16px;
       }
 
+      /* Linha lateral sempre visível no link da página atual */
+      &.link-pagina-atual::before {
+        height: inherit;
+      }
+
       /* Efeito hover */
       &:hover {
         background-color: rgba(255, 255, 255, 0.2);
