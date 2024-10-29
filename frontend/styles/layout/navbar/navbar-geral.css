@@ -3,6 +3,13 @@
 /* Todas as telas */
 
 nav#nav-principal {
+  /* Tipografia */
+  & a {
+    font-size: 1.5rem; /* 24px */
+    text-decoration: none;
+    color: var(--letra-uso);
+  }
+
   & ul {
     /* Remover marcadores */
     list-style-type: none;
