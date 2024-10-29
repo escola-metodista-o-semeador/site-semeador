@@ -2,7 +2,8 @@
 /* Navbar desktop */
 /* vw >= 1344px */
 
-/* Ocultar botão de menu mobile */
-#botao-menu-mobile {
+/* Ocultar os botões do navbar mobile */
+#botao-menu-mobile,
+#botao-fechar-navbar {
   display: none;
 }

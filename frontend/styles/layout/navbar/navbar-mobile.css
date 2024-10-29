@@ -78,3 +78,10 @@ nav#nav-principal {
     }
   }
 }
+
+/* Botão fechar navbar mobile */
+#botao-fechar-navbar {
+  width: fit-content;
+  align-self: flex-end;
+  margin-right: var(--padding-lateral-container);
+}
