@@ -10,9 +10,13 @@ nav#nav-principal {
     color: var(--letra-uso);
   }
 
-  & ul {
+  /* Lista de links */
+  & > ul {
     /* Remover marcadores */
     list-style-type: none;
+
+    /* Flexbox */
+    display: flex;
 
     & li {
       /* Sub-listas */

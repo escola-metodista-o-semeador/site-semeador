@@ -17,10 +17,32 @@ nav#nav-principal {
   backdrop-filter: blur(var(--blur-padrao));
   box-shadow: var(--shadow02);
 
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+
   /* Espaçamento */
   padding-block: 20px;
-  /* padding-right: var(--padding-lateral-container); */
 
   /* Ocultar navbar no mobile */
   /* transform: translateX(100%); */
+
+  /* Lista de links */
+  & > ul {
+    /* Flexbox */
+    flex-direction: column;
+    gap: 12px;
+
+    /* Blocos de links */
+    & > li > a {
+      /* Dimensões (área de toque) */
+      width: inherit;
+      height: 55px;
+
+      /* Flexbox */
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
 }
