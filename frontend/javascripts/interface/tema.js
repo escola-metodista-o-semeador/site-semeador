@@ -62,6 +62,9 @@ function aplicarTema(
   if (theme == "light") {
     /* Aplicar tema claro */
 
+    // Remover classe dark-mode do <body>
+    body.classList.remove("dark-mode")
+
     // Background
     root.style.setProperty("--background", "var(--background-claro)")
     root.style.setProperty("--background-contraste", "var(--background-escuro)")
@@ -82,6 +85,9 @@ function aplicarTema(
     darkIcon.style.display = "block"
   } else {
     /* Aplicar tema escuro */
+
+    // Adicionar classe dark-mode ao <body>
+    body.classList.add("dark-mode")
 
     // Backgrounds
     root.style.setProperty("--background", "var(--background-escuro)")
