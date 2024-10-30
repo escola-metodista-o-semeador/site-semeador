@@ -4,7 +4,7 @@
 
 header#header-principal {
   /* Aparência */
-  background-color: var(--background-transparente);
+  background-color: var(--background);
   box-shadow: var(--shadow01);
   /* backdrop-filter: blur(20px); */
 
