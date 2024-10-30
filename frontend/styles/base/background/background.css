@@ -10,7 +10,7 @@
   /* Background escuro */
   --background-escuro-abs: var(--preto);
   --background-escuro: var(--preto01);
-  --background-transparente: var(--preto01-transparente1);
+  --background-escuro-transparente: var(--preto01-transparente1);
 
   /* Background em uso (alterado entre light e dark mode) */
   --background: var(--background-claro);

@@ -4,8 +4,9 @@
 
 header#header-principal {
   /* Aparência */
-  background-color: var(--background-transparente);
+  background-color: var(--background);
   box-shadow: var(--shadow01);
+  /* backdrop-filter: blur(20px); */
 
   /* Dimensões */
   height: 60px;
@@ -36,4 +37,12 @@ header#header-principal {
 /* Ocultar ícone de dark mode */
 #icone-light-mode {
   display: none;
+}
+
+/* Sticky header (em telas com altura grande) */
+@media screen and (min-height: 600px) {
+  header#header-principal {
+    position: sticky;
+    top: 0;
+  }
 }
