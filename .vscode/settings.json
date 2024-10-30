@@ -1,7 +1,5 @@
 {
   /* Configurações do VS Code */
-  // Tamanho da fonte: 19
-  "editor.fontSize": 19,
   // Salvamento automático: periodicamente
   "files.autoSave": "afterDelay",
   // Quebrar linhas automaticamente para caber na visualização
