@@ -36,7 +36,7 @@
 
 /* Navbar */
 @import url("layout/navbar/navbar-geral.css");
-@import url("layout/navbar/navbar-mobile.css") screen and (max-width: 1255px);
-@import url("layout/navbar/navbar-desktop.css") screen and (min-width: 1256px);
+@import url("layout/navbar/navbar-mobile.css") screen and (max-width: 1280px);
+@import url("layout/navbar/navbar-desktop.css") screen and (min-width: 1279px);
 
 /* Footer */
