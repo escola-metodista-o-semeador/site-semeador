@@ -39,8 +39,6 @@
   },
 
   /* Configurações da extenção Live Server */
-  // Porta usada: 5500
-  "liveServer.settings.port": 5500,
   // Verificar tags essenciais (<head> e <body>)
   "liveServer.settings.donotVerifyTags": false,
 
