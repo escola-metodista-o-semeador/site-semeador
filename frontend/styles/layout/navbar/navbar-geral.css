@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* Navbar (barra de navegação) */
+/* Todas as telas */
+
+nav#nav-principal {
+  /* Tipografia */
+  & a {
+    font-size: 1.5rem; /* 24px */
+    text-decoration: none;
+    color: var(--letra-uso);
+
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+
+    /* Transição (pro efeito hover) */
+    transition-property: background-color, box-shadow;
+    transition-duration: 0.5s;
+
+    /* Link da página atual */
+    &.link-pagina-atual {
+      color: var(--cor-primaria-tema) !important;
+
+      &::before,
+      &::after {
+        background-color: var(--cor-primaria-tema);
+      }
+    }
+  }
+
+  /* Lista de links */
+  & > ul {
+    /* Remover marcadores */
+    list-style-type: none;
+
+    /* Flexbox */
+    display: flex;
+
+    & li {
+      /* Sub-listas */
+      & ul {
+        /* Ocultar sub-listas */
+        display: none;
+      }
+    }
+  }
+}

@@ -33,6 +33,15 @@
   /* Cores em uso */
   --cor-primaria: var(--roxo-escuro);
   --cor-secundaria: var(--laranja-escuro);
+
+  /* Cores em uso que variam conforme o tema */
+  --cor-primaria-tema: var(--cor-primaria);
+}
+
+/* Classe usada para adicionar efeito de transição ao alterar o tema claro ou escuro */
+.alterar-tema,
+.alterar-tema * {
+  transition: background-color 0.5s ease-in-out, color 0.05s ease !important;
 }
 
 /* Classe usada para adicionar efeito de transição ao alterar o tema claro ou escuro */
