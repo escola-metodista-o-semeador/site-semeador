@@ -1,7 +1,5 @@
 {
   /* Configurações do VS Code */
-  // Tamanho da fonte: 19
-  "editor.fontSize": 19,
   // Salvamento automático: periodicamente
   "files.autoSave": "afterDelay",
   // Quebrar linhas automaticamente para caber na visualização
@@ -39,8 +37,6 @@
   },
 
   /* Configurações da extenção Live Server */
-  // Porta usada: 5500
-  "liveServer.settings.port": 5500,
   // Verificar tags essenciais (<head> e <body>)
   "liveServer.settings.donotVerifyTags": false,
 

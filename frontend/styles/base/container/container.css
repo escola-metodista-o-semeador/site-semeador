@@ -11,8 +11,9 @@
 
 /* Classe que adiciona padding lateral para limitar um container */
 .pd-container {
-  padding-left: var(--padding-lateral-container) !important;
-  padding-right: var(--padding-lateral-container) !important;
+  padding-inline: var(--padding-lateral-container) !important;
+
+  width: calc(100vw - var(--padding-lateral-container) * 2);
 
   width: calc(100vw - (var(--padding-lateral-container)) * 2);
 

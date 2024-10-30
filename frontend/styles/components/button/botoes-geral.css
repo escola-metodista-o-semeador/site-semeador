@@ -20,11 +20,17 @@ button,
   /* Sombras */
   box-shadow: var(--shadow01);
 
+  /* Espaçamento */
+  padding-block: 6px; /* padding top e bottom */
+
   /* Flexbox */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  /* Não quebrar texto por padrão */
+  text-wrap: nowrap;
 
   /* Transição */
   transition-property: background-color, border-color, color, font-size, padding;

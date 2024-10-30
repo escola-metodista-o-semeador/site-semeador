@@ -8,11 +8,86 @@ nav#nav-principal {
   top: 0;
   right: 0;
 
-  /* Ocultar navbar no mobile */
-  transform: translateX(100%);
+  /* Dimensões */
+  height: 100vh;
+  width: 64vw;
 
-  & ul {
-    /* Remover marcadores */
-    list-style-type: none;
+  /* Aparência */
+  background-color: var(--background-transparente);
+  backdrop-filter: blur(var(--blur-padrao));
+  box-shadow: var(--shadow02);
+
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+
+  /* Espaçamento */
+  padding-block: 20px;
+
+  /* Ocultar navbar no mobile */
+  transform: translateX(110%);
+  transition: transform 0.5s;
+  &.show {
+    transform: translateX(0);
   }
+
+  /* Lista de links */
+  & > ul {
+    /* Flexbox */
+    flex-direction: column;
+    gap: 12px;
+
+    /* Blocos de links */
+    & > li > a {
+      /* Dimensões (área de toque) */
+      width: inherit;
+      height: 55px;
+
+      /* Flexbox */
+      justify-content: flex-start;
+
+      /* Corner (visível no hover) */
+      border-radius: 0 var(--corner-small) var(--corner-small) 0;
+
+      /* Linha lateral (para efeito hover) */
+      &::before {
+        content: "";
+        /* Cor da linha */
+        background-color: var(--cor-secundaria);
+        /* Espessura da linha */
+        width: 2px;
+        /* Largura da linha (para ocultar sem o hover) */
+        height: 0;
+        /* Transição */
+        transition-property: height, margin-right;
+        transition-duration: 0.5s;
+
+        /* Espaço entre linha e links (simula um padding-left do <a>) */
+        margin-right: 16px;
+      }
+
+      /* Linha lateral sempre visível no link da página atual */
+      &.link-pagina-atual::before {
+        height: inherit;
+      }
+
+      /* Efeito hover */
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: var(--shadow03);
+        /* Exibir linha lateral */
+        &::before {
+          height: inherit;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+/* Botão fechar navbar mobile */
+#botao-fechar-navbar {
+  width: fit-content;
+  align-self: flex-end;
+  margin-right: var(--padding-lateral-container);
 }
