@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* Footer (rodapé) */
+/* Padrão para todas as telas. */
+
+footer#footer-principal {
+  /* Aparência */
+  background-color: var(--background-escuro);
+  border-radius: var(--corner-small) var(--corner-small) 0 0;
+  box-shadow: var(--shadow-top01);
+  /* Cor da letra */
+  color: var(--letra-branca);
+
+  /* Espaçamento */
+  padding-block: 32px 16px;
+}
