@@ -8,6 +8,7 @@
 
 /* Tipografia */
 @import url("base/typography/tipografia-base.css");
+@import url("base/typography/tipografia-tablet.css") screen and (min-width: 768px);
 
 /* Background */
 @import url("base/background/background.css");
