@@ -126,6 +126,11 @@ footer#footer-principal {
       }
       /* Sub-lista */
       & > ul {
+        /* Flexbox */
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
         /* Links de 2º nível */
         & > li > a {
           /* Tipografia */
