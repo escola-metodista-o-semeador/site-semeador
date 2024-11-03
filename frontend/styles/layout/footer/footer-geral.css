@@ -95,9 +95,17 @@ footer#footer-principal {
     transition: color 0.25s;
   }
 
-  /* Lista */
+  /* Listas */
   & ul {
     list-style-type: none;
+  }
+  /* Lista principal */
+  & > ul {
+    /* Grid layout */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 12px;
+    row-gap: 16px;
 
     & li {
       /* Links de 1º nível */
