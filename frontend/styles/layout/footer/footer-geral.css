@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Footer (rodapé) */
-/* Padrão para todas as telas. */
+/* Padrão para todas as telas e para mobile. */
 
 footer#footer-principal {
   /* Aparência */
@@ -12,4 +12,35 @@ footer#footer-principal {
 
   /* Espaçamento */
   padding-block: 32px 16px;
+}
+/* Lista de telefones do footer */
+#lista-telefones-footer {
+  /* Espaçamento */
+  margin-top: 12px;
+  /* Flexbox */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+
+  /* Ícone */
+  & > svg {
+    height: 32px;
+  }
+  /* Lista */
+  & > ul {
+    list-style-type: none;
+
+    & > li {
+      text-align: left;
+      padding-block: 4px;
+
+      /* Links de telefones */
+      & > a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  }
 }
