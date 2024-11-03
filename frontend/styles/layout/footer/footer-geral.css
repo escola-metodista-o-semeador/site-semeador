@@ -173,3 +173,11 @@ footer#footer-principal {
     }
   }
 }
+/* "quebra de linha" no copyright no mobile */
+#footer-copyright span {
+  display: block;
+  /* Espaçamento */
+  &:last-child {
+    margin-top: 0.25rem;
+  }
+}
