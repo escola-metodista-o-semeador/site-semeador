@@ -34,6 +34,17 @@ h4 {
   font-family: var(--fonte-titulo);
 }
 
+/* Títulos com ícones SVG */
+.titulo-icone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Centralizado */
+  &.centro {
+    justify-content: center;
+  }
+}
+
 /* Títulos H1 */
 h1 {
   /* Geral */
@@ -55,6 +66,12 @@ h3 {
   font-weight: 500;
   /* Mobile */
   font-size: 1.5rem; /* 24px */
+
+  /* Com ícone */
+  &.titulo-icone svg {
+    height: 32px;
+    width: 32px;
+  }
 }
 /* Título H4 */
 h4 {
