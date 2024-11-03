@@ -1,5 +1,18 @@
 @charset "UTF-8";
 /* Footer navigation para tablets */
 #footer-navigation > ul {
+  /* Grid */
   grid-template-columns: repeat(3, 1fr);
+
+  /* Tipografia */
+  & > li {
+    /* link de 1º nível */
+    & > a {
+      font-size: 1.125rem; /* 18px */
+    }
+    /* link de 2º nível  */
+    & > ul > li > a {
+      font-size: 1rem; /* 16px */
+    }
+  }
 }
