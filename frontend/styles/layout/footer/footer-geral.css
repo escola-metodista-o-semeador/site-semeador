@@ -95,5 +95,19 @@ footer#footer-principal {
   /* Lista */
   & ul {
     list-style-type: none;
+
+    & li {
+      /* Links de 1º nível */
+      & > a {
+        color: var(--letra-branca);
+      }
+      /* Sub-lista */
+      & > ul {
+        /* Links de 2º nível */
+        & > li > a {
+          color: var(--cinza-claro);
+        }
+      }
+    }
   }
 }
