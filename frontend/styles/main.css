@@ -46,3 +46,5 @@
 
 /* Footer */
 @import url("layout/footer/footer-geral.css");
+/* Footer navigation */
+@import url("layout/footer/footer-nav-tablet.css") screen and (min-width: 600px);
