@@ -16,3 +16,9 @@
     }
   }
 }
+
+@media screen and (min-width: 696px) {
+  #footer-navigation > ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
