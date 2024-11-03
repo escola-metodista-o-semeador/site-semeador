@@ -20,6 +20,8 @@ footer#footer-principal {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  /* Espaçamento */
+  margin-bottom: 28px;
 
   /* Tipografia */
   text-align: center;
