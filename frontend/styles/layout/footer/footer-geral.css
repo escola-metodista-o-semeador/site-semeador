@@ -81,3 +81,19 @@ footer#footer-principal {
     }
   }
 }
+
+/* Footer navigation */
+#footer-navigation {
+  /* Espaçamento */
+  padding-block: 20px;
+
+  /* Tipografia */
+  & a {
+    text-decoration: none;
+  }
+
+  /* Lista */
+  & ul {
+    list-style-type: none;
+  }
+}
