@@ -87,9 +87,12 @@ footer#footer-principal {
   /* Espaçamento */
   padding-block: 20px;
 
-  /* Tipografia */
+  /* Links (1º e 2º nível) */
   & a {
+    /* Tipografia */
     text-decoration: none;
+    /* Transição pro hover */
+    transition: color 0.25s;
   }
 
   /* Lista */
@@ -100,12 +103,21 @@ footer#footer-principal {
       /* Links de 1º nível */
       & > a {
         color: var(--letra-branca);
+        /* Efeito hover */
+        &:hover {
+          color: var(--roxo-medio);
+        }
       }
       /* Sub-lista */
       & > ul {
         /* Links de 2º nível */
         & > li > a {
           color: var(--cinza-claro);
+
+          /* Efeito hover */
+          &:hover {
+            color: var(--laranja-medio);
+          }
         }
       }
     }
