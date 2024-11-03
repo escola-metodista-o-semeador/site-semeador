@@ -110,6 +110,7 @@ footer#footer-principal {
     & li {
       /* Links de 1º nível */
       & > a {
+        /* Tipografia */
         color: var(--letra-branca);
         /* Efeito hover */
         &:hover {
@@ -120,7 +121,9 @@ footer#footer-principal {
       & > ul {
         /* Links de 2º nível */
         & > li > a {
+          /* Tipografia */
           color: var(--cinza-claro);
+          font-size: 0.875rem; /* 14px */
 
           /* Efeito hover */
           &:hover {
