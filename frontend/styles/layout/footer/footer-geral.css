@@ -11,6 +11,7 @@ footer#footer-principal {
   color: var(--letra-branca);
 
   /* Espaçamento */
+  margin-top: 40px;
   padding-block: 32px 16px;
 }
 
