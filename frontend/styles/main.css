@@ -49,3 +49,5 @@
 /* Footer navigation */
 @import url("layout/footer/footer-nav-tablet.css") screen and (min-width: 600px);
 @import url("layout/footer/footer-nav-desktop.css") screen and (min-width: 1024px);
+/* Footer legal */
+@import url("layout/footer/footer-legal-desktop.css") screen and (min-width: 984px);

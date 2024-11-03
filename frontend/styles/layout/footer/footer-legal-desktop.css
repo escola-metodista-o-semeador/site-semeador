@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* Footer legal para tablets */
+#footer-legal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#footer-copyright span {
+  display: inline;
+}
