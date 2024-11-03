@@ -107,7 +107,14 @@ footer#footer-principal {
     column-gap: 12px;
     row-gap: 16px;
 
-    & li {
+    /* bloco de <li> */
+    & > li {
+      /* Flexbox */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 16px;
+
       /* Links de 1º nível */
       & > a {
         /* Tipografia */
