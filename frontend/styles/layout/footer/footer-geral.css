@@ -146,3 +146,17 @@ footer#footer-principal {
     }
   }
 }
+
+/* Footer legal */
+#footer-legal {
+  /* Espaçamento */
+  margin-top: 16px;
+
+  /* Tipografia */
+  &,
+  & a {
+    color: var(--cinza-claro);
+    text-decoration: none;
+    text-align: center;
+  }
+}
