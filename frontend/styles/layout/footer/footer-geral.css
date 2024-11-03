@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* Footer (rodapé) */
+/* Padrão para todas as telas e para mobile. */
+
+footer#footer-principal {
+  /* Aparência */
+  background-color: var(--background-escuro);
+  border-radius: var(--corner-small) var(--corner-small) 0 0;
+  box-shadow: var(--shadow-top01);
+  /* Cor da letra */
+  color: var(--letra-branca);
+
+  /* Espaçamento */
+  margin-top: 40px;
+  padding-block: 32px 16px;
+}
+
+/* Seção de contato do footer */
+#contato-footer {
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* Espaçamento */
+  margin-bottom: 28px;
+
+  /* Tipografia */
+  text-align: center;
+
+  /* Divs (colunas) internas */
+  & .coluna-esquerda,
+  & .coluna-direita {
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    /* Títulos */
+    & h3 {
+      margin-bottom: 5px;
+    }
+  }
+
+  /* Iframe do Google Maps */
+  & .google-maps {
+    margin-top: 16px;
+    width: 100%;
+    height: 45vw;
+    max-height: 50vh;
+    border-radius: var(--corner-medium);
+  }
+}
+
+/* Lista de telefones do footer */
+#lista-telefones-footer {
+  /* Espaçamento */
+  margin-top: 12px;
+  /* Flexbox */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+
+  /* Ícone */
+  & > svg {
+    height: 32px;
+  }
+  /* Lista */
+  & > ul {
+    list-style-type: none;
+
+    & > li {
+      text-align: left;
+      padding-block: 4px;
+
+      /* Links de telefones */
+      & > a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/* Footer navigation */
+#footer-navigation {
+  /* Espaçamento */
+  padding-block: 20px;
+
+  /* Links (1º e 2º nível) */
+  & a {
+    /* Tipografia */
+    text-decoration: none;
+    /* Transição pro hover */
+    transition: color 0.25s;
+  }
+
+  /* Listas */
+  & ul {
+    list-style-type: none;
+  }
+  /* Lista principal */
+  & > ul {
+    /* Grid layout */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 12px;
+    row-gap: 1rem;
+
+    /* bloco de <li> */
+    & > li {
+      /* Flexbox */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 0.75rem;
+
+      /* Links de 1º nível */
+      & > a {
+        /* Tipografia */
+        color: var(--letra-branca);
+        /* Efeito hover */
+        &:hover {
+          color: var(--roxo-medio);
+        }
+      }
+      /* Sub-lista */
+      & > ul {
+        /* Flexbox */
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        /* Links de 2º nível */
+        & > li > a {
+          /* Tipografia */
+          color: var(--cinza-claro);
+          font-size: 0.875rem; /* 14px */
+
+          /* Efeito hover */
+          &:hover {
+            color: var(--laranja-medio);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Footer legal */
+#footer-legal {
+  /* Espaçamento */
+  padding-top: 16px;
+
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  /* Tipografia */
+  text-align: center;
+  &,
+  & a {
+    color: var(--cinza-claro);
+  }
+  /* Links */
+  & a {
+    text-decoration: none;
+    /* Efeito hover */
+    &:hover {
+      color: var(--letra-branca);
+    }
+  }
+}
+/* "quebra de linha" no copyright no mobile */
+#footer-copyright span {
+  display: block;
+  /* Espaçamento */
+  &:last-child {
+    margin-top: 0.25rem;
+  }
+}

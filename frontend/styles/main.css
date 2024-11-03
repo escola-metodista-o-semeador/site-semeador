@@ -14,6 +14,9 @@
 /* Background */
 @import url("base/background/background.css");
 
+/* Bordas */
+@import url("base/border/border.css");
+
 /* Sombras */
 @import url("base/shadows/sombras.css");
 
@@ -42,3 +45,4 @@
 @import url("layout/navbar/navbar-desktop.css") screen and (min-width: 1279px);
 
 /* Footer */
+@import url("layout/footer/footer-geral.css");
