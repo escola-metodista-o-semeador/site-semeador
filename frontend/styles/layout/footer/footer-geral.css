@@ -152,6 +152,12 @@ footer#footer-principal {
   /* Espaçamento */
   margin-top: 16px;
 
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
   /* Tipografia */
   text-align: center;
   &,
