@@ -151,7 +151,7 @@ footer#footer-principal {
 /* Footer legal */
 #footer-legal {
   /* Espaçamento */
-  margin-top: 16px;
+  padding-top: 16px;
 
   /* Flexbox */
   display: flex;
