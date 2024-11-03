@@ -85,6 +85,11 @@ h4 {
 p {
   /* Mobile */
   font-size: 1rem; /* 16px */
+
+  /* Espaçamento */
+  &.mg-bt-meio {
+    margin-bottom: 0.5rem;
+  }
 }
 
 /* Links */
