@@ -7,6 +7,9 @@
   justify-content: space-between;
   gap: 30px;
 
+  /* Espaçamento */
+  margin-bottom: 48px;
+
   /* Tipografia */
   text-align: start;
 
