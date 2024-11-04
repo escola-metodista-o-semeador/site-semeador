@@ -46,6 +46,7 @@
 
 /* Footer */
 @import url("layout/footer/footer-geral.css");
+@import url("layout/footer/footer-desktop.css") screen and (min-width: 1024px);
 /* Footer contato */
 @import url("layout/footer/footer-contato-desktop.css") screen and (min-width: 1000px);
 /* Footer navigation */
