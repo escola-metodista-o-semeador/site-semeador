@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* Footer contato */
+#contato-footer {
+  /* Flexbox */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+
+  /* Tipografia */
+  text-align: start;
+
+  /* Filhos (colunas) */
+  & > * {
+    width: 100%;
+  }
+}
