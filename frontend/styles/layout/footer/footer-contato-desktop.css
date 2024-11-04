@@ -12,6 +12,25 @@
 
   /* Filhos (colunas) */
   & > * {
+  }
+
+  /* Coluna esquerda */
+  & > .coluna-esquerda {
     width: 100%;
+  }
+
+  /* Coluna direita */
+  & > .coluna-direita {
+    min-width: fit-content;
+
+    /* Título "Endereço" */
+    & h3.titulo-icone {
+      justify-content: start;
+    }
+    /* Endereço */
+    & address {
+      margin-left: 5px;
+      margin-right: 2.5rem;
+    }
   }
 }
