@@ -7,8 +7,14 @@ footer#footer-principal {
   background-color: var(--background-escuro);
   border-radius: var(--corner-small) var(--corner-small) 0 0;
   box-shadow: var(--shadow-top01);
+
   /* Cor da letra */
   color: var(--letra-branca);
+  /* Cor da letra de títulos */
+  & p,
+  & li {
+    color: var(--cinza-claro);
+  }
 
   /* Espaçamento */
   margin-top: 40px;
