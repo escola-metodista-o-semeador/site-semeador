@@ -15,6 +15,10 @@ footer#footer-principal {
   & li {
     color: var(--cinza-claro);
   }
+  /* Remover itálico */
+  address {
+    font-style: normal;
+  }
 
   /* Espaçamento */
   margin-top: 40px;
