@@ -34,3 +34,17 @@
     }
   }
 }
+
+/* Lista de telefones */
+#lista-telefones-footer {
+  /* Flexbox */
+  justify-content: start;
+  gap: 12px;
+  /* Espaçamento */
+  margin-top: 22px;
+
+  /* Número de telefone */
+  & li {
+    padding-block: 8px;
+  }
+}
