@@ -10,10 +10,6 @@
   /* Tipografia */
   text-align: start;
 
-  /* Filhos (colunas) */
-  & > * {
-  }
-
   /* Coluna esquerda */
   & > .coluna-esquerda {
     width: 40%;
@@ -44,5 +40,11 @@
   /* Número de telefone */
   & li {
     padding-block: 8px;
+  }
+
+  /* Ícone */
+  & svg {
+    width: 40px;
+    height: 40px;
   }
 }
