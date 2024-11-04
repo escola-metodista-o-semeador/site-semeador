@@ -21,6 +21,8 @@
 
   /* Coluna direita */
   & > .coluna-direita {
+    width: 100%;
+
     /* Título "Endereço" */
     & h3.titulo-icone {
       justify-content: start;
