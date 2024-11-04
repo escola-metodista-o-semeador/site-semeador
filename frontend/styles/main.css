@@ -8,9 +8,14 @@
 
 /* Tipografia */
 @import url("base/typography/tipografia-base.css");
+@import url("base/typography/tipografia-tablet.css") screen and (min-width: 768px);
+@import url("base/typography/tipografia-desktop.css") screen and (min-width: 1024px);
 
 /* Background */
 @import url("base/background/background.css");
+
+/* Bordas */
+@import url("base/border/border.css");
 
 /* Sombras */
 @import url("base/shadows/sombras.css");
@@ -40,3 +45,13 @@
 @import url("layout/navbar/navbar-desktop.css") screen and (min-width: 1279px);
 
 /* Footer */
+@import url("layout/footer/footer-geral.css");
+@import url("layout/footer/footer-desktop.css") screen and (min-width: 1024px);
+/* Footer contato */
+@import url("layout/footer/footer-contato-desktop.css") screen and (min-width: 768px);
+/* Footer navigation */
+@import url("layout/footer/footer-nav-tablet.css") screen and (min-width: 600px);
+@import url("layout/footer/footer-nav-desktop.css") screen and (min-width: 1024px);
+/* Footer legal */
+@import url("layout/footer/footer-legal-tablet.css") screen and (min-width: 600px);
+@import url("layout/footer/footer-legal-desktop.css") screen and (min-width: 984px);

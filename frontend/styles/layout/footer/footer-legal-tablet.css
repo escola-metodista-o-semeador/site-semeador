@@ -1,0 +1,5 @@
+@charset "UTF-8";
+/* Footer legal - tablet */
+#footer-copyright span {
+  display: inline;
+}

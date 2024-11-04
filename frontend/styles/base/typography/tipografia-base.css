@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Tipografia base para todas as telas */
+/* Tipografia base para todas as telas e para mobile */
 
 /* Importação da fonte Roboto do Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
@@ -34,25 +34,58 @@ h4 {
   font-family: var(--fonte-titulo);
 }
 
+/* Títulos com ícones SVG */
+.titulo-icone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 /* Títulos H1 */
 h1 {
+  /* Geral */
   font-weight: 600;
+  color: var(--cor-primaria-tema);
+  /* Mobile */
+  font-size: 2.5rem; /* 40px */
 }
 /* Título H2 */
 h2 {
+  /* Geral */
   font-weight: 500;
+  /* Mobile */
+  font-size: 2rem; /* 32px */
 }
 /* Título H3 */
 h3 {
+  /* Geral */
   font-weight: 500;
+  /* Mobile */
+  font-size: 1.5rem; /* 24px */
+
+  /* Com ícone */
+  &.titulo-icone svg {
+    height: 32px;
+    width: 32px;
+  }
 }
 /* Título H4 */
 h4 {
+  /* Geral */
   font-weight: 500;
+  /* Mobile */
+  font-size: 1.125rem; /* 18px */
 }
 
 /* Parágrafos */
 p {
+  /* Mobile */
+  font-size: 1rem; /* 16px */
+
+  /* Espaçamento */
+  &.mg-bt-meio {
+    margin-bottom: 0.5rem;
+  }
 }
 
 /* Links */

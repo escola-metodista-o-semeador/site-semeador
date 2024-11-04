@@ -58,6 +58,9 @@ nav#nav-principal {
         width: 2px;
         /* Largura da linha (para ocultar sem o hover) */
         height: 0;
+        /* Arredondamento */
+        border-radius: 0 2px 2px 0;
+
         /* Transição */
         transition-property: height, margin-right;
         transition-duration: 0.5s;

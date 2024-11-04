@@ -52,6 +52,8 @@ nav#nav-principal {
           /* Posição */
           position: absolute;
           bottom: 0;
+          /* Arredondamento */
+          border-radius: 2px 2px 0 0;
           /* Transição */
           transition: width 0.5s;
         }

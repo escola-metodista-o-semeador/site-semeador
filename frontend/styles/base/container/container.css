@@ -13,8 +13,6 @@
 .pd-container {
   padding-inline: var(--padding-lateral-container) !important;
 
-  width: calc(100vw - var(--padding-lateral-container) * 2);
-
   transition: padding 0.5s ease;
 }
 

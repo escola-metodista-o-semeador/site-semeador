@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* Footer navigation para desktop */
+#footer-navigation > ul {
+  /* Grid */
+  grid-template-columns: repeat(5, 1fr);
+}
