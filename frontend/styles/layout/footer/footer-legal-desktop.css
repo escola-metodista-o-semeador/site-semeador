@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* Footer legal - desktop */
+#footer-legal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

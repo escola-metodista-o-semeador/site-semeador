@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* Footer contato */
+#contato-footer {
+  /* Flexbox */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+
+  /* Espaçamento */
+  margin-bottom: 48px;
+
+  /* Tipografia */
+  text-align: start;
+
+  /* Coluna esquerda */
+  & > .coluna-esquerda {
+    width: 40%;
+    min-width: fit-content;
+  }
+
+  /* Coluna direita */
+  & > .coluna-direita {
+    width: 100%;
+
+    /* Título "Endereço" */
+    & h3.titulo-icone {
+      justify-content: start;
+    }
+    /* Endereço */
+    & address {
+      margin-left: 5px;
+    }
+  }
+}
+
+/* Lista de telefones */
+#lista-telefones-footer {
+  /* Flexbox */
+  justify-content: start;
+  gap: 12px;
+  /* Espaçamento */
+  margin-top: 22px;
+
+  /* Número de telefone */
+  & li {
+    padding-block: 8px;
+  }
+
+  /* Ícone */
+  & svg {
+    width: 40px;
+    height: 40px;
+  }
+}
