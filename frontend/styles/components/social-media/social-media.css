@@ -20,6 +20,11 @@ ul.lista-redes-sociais {
   /* Cantos arredondados */
   border-radius: var(--corner-extra-small);
 
+  /* Tipografia */
+  text-decoration: none;
+  color: var(--letra-branca);
+  font-size: 1.063rem; /* 17px */
+
   /* Ícones */
   &::before {
     height: 19px;
