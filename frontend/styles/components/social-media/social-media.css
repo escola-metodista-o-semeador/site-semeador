@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* Blocos de links de redes sociais */
+/* Mobile + geral para todas as telas */
+
+/* Lista de redes sociais */
+ul.lista-redes-sociais {
+  /* Remover marcador */
+  list-style-type: none;
+}
+
+.link-rede-social {
+  /* Flexbox */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  /* Ícones */
+  &::before {
+    height: 19px;
+    width: 19px;
+  }
+
+  /* Link do Instagram */
+  &.link-instagram {
+    /* Ícone */
+    &::before {
+      content: url("../../../assets/svgs/social-media/instagram-glyph-white.svg");
+    }
+  }
+  /* Link do Facebook */
+  &.link-facebook {
+    /* Ícone */
+    &::before {
+      content: url("../../../assets/svgs/social-media/facebook-glyph-white.svg");
+    }
+  }
+  /* Link do WhatsApp */
+  &.link-whatsapp {
+    /* Ícone */
+    &::before {
+      content: url("../../../assets/svgs/social-media/whatsapp-glyph-white.svg");
+    }
+  }
+}
