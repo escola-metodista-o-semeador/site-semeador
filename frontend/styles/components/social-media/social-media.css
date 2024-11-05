@@ -15,7 +15,7 @@ ul.lista-redes-sociais {
   align-items: center;
   /* Espaçamento */
   gap: 4px;
-  padding: 4px 8px;
+  padding: 8px 16px;
 
   /* Cantos arredondados */
   border-radius: var(--corner-extra-small);
@@ -26,6 +26,10 @@ ul.lista-redes-sociais {
     width: 19px;
   }
 
+  /* Transição */
+  transition-property: background, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
   /* Efeito hover */
   &:hover {
     background-color: var(--branco01);
@@ -37,6 +41,15 @@ ul.lista-redes-sociais {
     &::before {
       content: url("../../../assets/svgs/social-media/instagram-glyph-white.svg");
     }
+    /* Efeito hover */
+    &:hover {
+      /* Colorir texto */
+
+      /* Colorir ícone */
+      &::before {
+        content: url("../../../assets/svgs/social-media/instagram-glyph-gradient.svg");
+      }
+    }
   }
   /* Link do Facebook */
   &.link-facebook {
@@ -44,12 +57,30 @@ ul.lista-redes-sociais {
     &::before {
       content: url("../../../assets/svgs/social-media/facebook-glyph-white.svg");
     }
+    /* Efeito hover */
+    &:hover {
+      /* Colorir texto */
+      color: var(--cor-facebook);
+      /* Colorir ícone */
+      &::before {
+        content: url("../../../assets/svgs/social-media/facebook-glyph-color.svg");
+      }
+    }
   }
   /* Link do WhatsApp */
   &.link-whatsapp {
     /* Ícone */
     &::before {
       content: url("../../../assets/svgs/social-media/whatsapp-glyph-white.svg");
+    }
+    /* Efeito hover */
+    &:hover {
+      /* Colorir texto */
+      color: var(--cor-whatsapp);
+      /* Colorir ícone */
+      &::before {
+        content: url("../../../assets/svgs/social-media/whatsapp-glyph-color.svg");
+      }
     }
   }
 }
