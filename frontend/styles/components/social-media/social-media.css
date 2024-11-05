@@ -54,7 +54,12 @@ ul.lista-redes-sociais {
     }
     /* Efeito hover */
     &:hover {
-      /* Colorir texto */
+      /* Colorir texto (gradiente) */
+      & span {
+        background: var(--gradiente-instagram);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
 
       /* Colorir ícone */
       &::before {
