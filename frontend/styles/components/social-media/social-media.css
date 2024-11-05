@@ -6,6 +6,12 @@
 ul.lista-redes-sociais {
   /* Remover marcador */
   list-style-type: none;
+
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
 }
 
 .link-rede-social {
@@ -14,7 +20,7 @@ ul.lista-redes-sociais {
   flex-direction: row;
   align-items: center;
   /* Espaçamento */
-  gap: 4px;
+  gap: 8px;
   padding: 8px 16px;
 
   /* Cantos arredondados */
