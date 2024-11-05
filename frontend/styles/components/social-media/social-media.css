@@ -39,7 +39,7 @@ ul.lista-redes-sociais {
 
   /* Transição */
   transition-property: background, color;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
   /* Efeito hover */
   &:hover {
@@ -60,7 +60,6 @@ ul.lista-redes-sociais {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
-
       /* Colorir ícone */
       &::before {
         content: url("../../../assets/svgs/social-media/instagram-glyph-gradient.svg");
