@@ -13,11 +13,22 @@ ul.lista-redes-sociais {
   display: flex;
   flex-direction: row;
   align-items: center;
+  /* Espaçamento */
+  gap: 4px;
+  padding: 4px 8px;
+
+  /* Cantos arredondados */
+  border-radius: var(--corner-extra-small);
 
   /* Ícones */
   &::before {
     height: 19px;
     width: 19px;
+  }
+
+  /* Efeito hover */
+  &:hover {
+    background-color: var(--branco01);
   }
 
   /* Link do Instagram */
