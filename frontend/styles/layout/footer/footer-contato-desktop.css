@@ -32,6 +32,12 @@
       margin-left: 5px;
     }
   }
+
+  /* Lista de redes sociais */
+  & ul.lista-redes-sociais {
+    align-items: flex-start;
+    gap: 6px;
+  }
 }
 
 /* Lista de telefones */

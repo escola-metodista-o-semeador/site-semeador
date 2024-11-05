@@ -36,6 +36,11 @@
 
   /* Cores em uso que variam conforme o tema */
   --cor-primaria-tema: var(--cor-primaria);
+
+  /* Cores de redes sociais */
+  --cor-facebook: #0866ff;
+  --cor-whatsapp: #25d366;
+  --gradiente-instagram: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
 }
 
 /* Classe usada para adicionar efeito de transição ao alterar o tema claro ou escuro */
