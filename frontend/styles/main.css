@@ -13,6 +13,11 @@
 
 /* Background */
 @import url("base/background/background.css");
+/* Background Image */
+@import url("base/background/background-images.css");
+@import url("base/background/background-images-s.css") screen and (min-width: 320px);
+@import url("base/background/background-images-m.css") screen and (min-width: 854px);
+@import url("base/background/background-images-l.css") screen and (min-width: 1152px);
 
 /* Bordas */
 @import url("base/border/border.css");

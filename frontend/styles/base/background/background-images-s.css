@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* Imagens de fundo: tamanho small */
+
+/* Imagem de fundo da fachada (com filtro)*/
+.backimage-fachada-filtro {
+  background-image: url("../../../assets/images/ambiente/fachada/fachada-filtro-s.png");
+}
