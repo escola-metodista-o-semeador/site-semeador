@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* Blocos de links de redes sociais */
+/* Mobile + geral para todas as telas */
+
+/* Lista de redes sociais */
+ul.lista-redes-sociais {
+  /* Remover marcador */
+  list-style-type: none;
+
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.link-rede-social {
+  /* Flexbox */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Espaçamento */
+  gap: 8px;
+  padding: 8px 16px;
+
+  /* Cantos arredondados */
+  border-radius: var(--corner-extra-small);
+
+  /* Tipografia */
+  text-decoration: none;
+  color: var(--letra-branca);
+  font-size: 1.063rem; /* 17px */
+
+  /* Ícones */
+  &::before {
+    height: 19px;
+    width: 19px;
+  }
+
+  /* Transição */
+  transition-property: background, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  /* Efeito hover */
+  &:hover {
+    background-color: var(--branco01);
+  }
+
+  /* Link do Instagram */
+  &.link-instagram {
+    /* Ícone */
+    &::before {
+      content: url("../../../assets/svgs/social-media/instagram-glyph-white.svg");
+    }
+    /* Efeito hover */
+    &:hover {
+      /* Colorir texto (gradiente) */
+      & span {
+        background: var(--gradiente-instagram);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      /* Colorir ícone */
+      &::before {
+        content: url("../../../assets/svgs/social-media/instagram-glyph-gradient.svg");
+      }
+    }
+  }
+  /* Link do Facebook */
+  &.link-facebook {
+    /* Ícone */
+    &::before {
+      content: url("../../../assets/svgs/social-media/facebook-glyph-white.svg");
+    }
+    /* Efeito hover */
+    &:hover {
+      /* Colorir texto */
+      color: var(--cor-facebook);
+      /* Colorir ícone */
+      &::before {
+        content: url("../../../assets/svgs/social-media/facebook-glyph-color.svg");
+      }
+    }
+  }
+  /* Link do WhatsApp */
+  &.link-whatsapp {
+    /* Ícone */
+    &::before {
+      content: url("../../../assets/svgs/social-media/whatsapp-glyph-white.svg");
+    }
+    /* Efeito hover */
+    &:hover {
+      /* Colorir texto */
+      color: var(--cor-whatsapp);
+      /* Colorir ícone */
+      &::before {
+        content: url("../../../assets/svgs/social-media/whatsapp-glyph-color.svg");
+      }
+    }
+  }
+}
