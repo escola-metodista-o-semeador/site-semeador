@@ -9,7 +9,7 @@
 <p align="center">
     🖥️<a href="http://escolaosemeador.com.br" target="_blank">Versão anterior do site (último acesso em 28 de Outubro de 2024)</a> 
     <br>
-    🚀<a href="frontend/pages/index.html" target="_blank">Nova versão em desenvolvimento (hospedada pelo GitHub Pages)</a>
+    🚀<a href="https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/" target="_blank">Nova versão em desenvolvimento (hospedada pelo GitHub Pages)</a>
 </p>
 
 ## 👨‍💻 Integrantes do Projeto
