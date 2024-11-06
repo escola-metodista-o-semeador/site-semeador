@@ -82,8 +82,9 @@ h4 {
   font-size: 1.125rem; /* 18px */
 }
 
-/* Parágrafos */
-p {
+/* Parágrafos e texto */
+p,
+li {
   /* Mobile */
   font-size: 1.063rem; /* 17px */
 
@@ -95,4 +96,8 @@ p {
 
 /* Links */
 a {
+  /* Links sem cor de destaque */
+  &.no-recolor {
+    color: inherit;
+  }
 }
