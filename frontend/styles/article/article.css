@@ -7,10 +7,11 @@ article {
     color: var(--cor-primaria-tema);
   }
 
-  /* Alinhamento do texto */
+  /* Texto em geral */
   & p,
   li {
     text-align: justify;
+    font-size: 1.063rem; /* 17px */
   }
 
   /* Parágrafos */
