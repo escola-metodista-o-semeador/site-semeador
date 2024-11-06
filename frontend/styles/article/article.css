@@ -31,9 +31,14 @@ article {
     }
   }
 
-  /* Seções */
+  /* Seções de artigos */
   & section {
     /* Espaçamento entre seções */
-    margin-block: 2rem;
+    padding-block: 1rem;
+
+    /* Espaçamento no topo */
+    &.space-top {
+      margin-top: 2rem;
+    }
   }
 }
