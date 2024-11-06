@@ -13,6 +13,11 @@
 
 /* Background */
 @import url("base/background/background.css");
+/* Background Image */
+@import url("base/background/background-images.css");
+@import url("base/background/background-images-s.css") screen and (min-width: 320px);
+@import url("base/background/background-images-m.css") screen and (min-width: 854px);
+@import url("base/background/background-images-l.css") screen and (min-width: 1152px);
 
 /* Bordas */
 @import url("base/border/border.css");
@@ -27,14 +32,25 @@
 @import url("base/outras-variaveis.css");
 
 /* Componentes */
+
 /* Botões */
 @import url("components/button/botoes-geral.css");
 @import url("components/button/botoes-mobile.css") screen and (max-width: 1024px);
 @import url("components/button/botoes-desktop.css") screen and (min-width: 1025px);
+
 /* Links de redes sociais */
 @import url("components/social-media/social-media.css");
 
+/* Headlines */
+@import url("components/headline/headline.css");
+
+/* Artigos */
+@import url("article/article.css");
+@import url("article/article-tablet.css") screen and (min-width: 768px);
+@import url("article/article-desktop.css") screen and (min-width: 1024px);
+
 /* Layout */
+
 /* Header */
 @import url("layout/header/header-geral.css");
 @import url("layout/header/header-mobile.css") screen and (max-width: 696px);
