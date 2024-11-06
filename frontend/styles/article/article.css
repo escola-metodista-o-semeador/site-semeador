@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* Artigos (geral e mobile) */
+
+article {
+  /* Títulos */
+  h2 {
+    color: var(--cor-primaria-tema);
+  }
+
+  /* Parágrafos */
+  & p {
+    text-align: justify;
+    /* Espaçamento */
+    margin-block: 0.7rem;
+  }
+
+  /* Seções */
+  & section {
+    /* Espaçamento entre seções */
+    margin-block: 2rem;
+  }
+}

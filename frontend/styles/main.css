@@ -32,14 +32,23 @@
 @import url("base/outras-variaveis.css");
 
 /* Componentes */
+
 /* Botões */
 @import url("components/button/botoes-geral.css");
 @import url("components/button/botoes-mobile.css") screen and (max-width: 1024px);
 @import url("components/button/botoes-desktop.css") screen and (min-width: 1025px);
+
 /* Links de redes sociais */
 @import url("components/social-media/social-media.css");
 
+/* Headlines */
+@import url("components/headline/headline.css");
+
+/* Artigos */
+@import url("article/article.css");
+
 /* Layout */
+
 /* Header */
 @import url("layout/header/header-geral.css");
 @import url("layout/header/header-mobile.css") screen and (max-width: 696px);
