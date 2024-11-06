@@ -86,7 +86,7 @@ h4 {
 p,
 li {
   /* Mobile */
-  font-size: 1.063rem; /* 17px */
+  font-size: 1rem; /* 16px */
 
   /* Espaçamento */
   &.mg-bt-meio {
