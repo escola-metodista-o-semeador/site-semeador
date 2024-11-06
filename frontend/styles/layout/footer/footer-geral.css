@@ -93,6 +93,12 @@ footer#footer-principal {
       & > a {
         color: inherit;
         text-decoration: none;
+
+        transition: color 0.25s ease;
+        /* Efeito hover */
+        &:hover {
+          color: var(--letra-branca);
+        }
       }
     }
   }
