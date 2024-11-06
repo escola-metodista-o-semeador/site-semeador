@@ -6,4 +6,10 @@
   li {
     font-size: 1.188rem; /* 19px */
   }
+
+  /* Listas */
+  & ul {
+    /* Espaço lateral */
+    padding-inline-start: 5rem;
+  }
 }
