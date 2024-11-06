@@ -92,5 +92,7 @@ nav#nav-principal {
 #botao-fechar-navbar {
   width: fit-content;
   align-self: flex-end;
+  /* Espaçamento */
   margin-right: var(--padding-lateral-container);
+  margin-bottom: 16px;
 }
