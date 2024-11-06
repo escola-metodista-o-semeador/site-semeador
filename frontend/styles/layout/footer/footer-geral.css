@@ -5,7 +5,7 @@
 footer#footer-principal {
   /* Aparência */
   background-color: var(--background-escuro);
-  border-radius: var(--corner-small) var(--corner-small) 0 0;
+  border-radius: var(--corner-large) var(--corner-large) 0 0;
   box-shadow: var(--shadow-top01);
 
   /* Cor da letra */
