@@ -46,6 +46,8 @@
 
 /* Artigos */
 @import url("article/article.css");
+@import url("article/article-tablet.css") screen and (min-width: 768px);
+@import url("article/article-desktop.css") screen and (min-width: 1024px);
 
 /* Layout */
 

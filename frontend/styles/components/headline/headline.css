@@ -16,8 +16,4 @@
     color: var(--letra-branca);
     text-align: center;
   }
-  /* Parágrafos (subtítulos) */
-  & p {
-    font-size: 1rem;
-  }
 }
