@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Headlines das páginas */
+
+/* Headline com título e imagem de fundo */
+.headline-titulo-backimage {
+  /* Espaçamento */
+  padding-block: 64px;
+
+  /* Cantos arredondados */
+  border-radius: 0 0 var(--corner-medium) var(--corner-medium);
+  /* Sombra */
+  box-shadow: inset var(--shadow-top01);
+
+  /* Tipografia */
+  & * {
+    color: var(--letra-branca);
+    text-align: center;
+  }
+}

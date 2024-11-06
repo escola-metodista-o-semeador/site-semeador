@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Artigos (geral e mobile) */
+
+article {
+  /* Títulos */
+  h2 {
+    color: var(--cor-primaria-tema);
+  }
+
+  /* Texto em geral */
+  & p,
+  li {
+    text-align: justify;
+    font-size: 1.063rem; /* 17px */
+
+    /* Container para artigos */
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  /* Parágrafos */
+  & p {
+    /* Espaçamento */
+    margin-block: 0.7rem;
+  }
+
+  /* Listas */
+  & ul {
+    /* Espaço lateral */
+    padding-inline-start: 2rem;
+
+    /* Item de lista */
+    & li {
+      margin-block-end: 0.25rem;
+    }
+  }
+
+  /* Seções */
+  & section {
+    /* Espaçamento entre seções */
+    margin-block: 2rem;
+  }
+}

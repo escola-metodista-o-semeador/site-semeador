@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* Artigos para tablets */
+& article {
+  /* Texto em geral */
+  & p,
+  li {
+    font-size: 1.125rem; /* 18px */
+  }
+}

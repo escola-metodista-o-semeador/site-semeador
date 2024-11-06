@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* Imagens de fundo (mobile) */
+
+/* Configurações */
+.backimage {
+  /* Background enquanto imagem não carrega */
+  background-color: var(--preto01);
+  /* Posição da imagem de fundo */
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Imagens (tamanho padrão: extra-small) */
+.backimage-fachada-filtro {
+  background-image: url("../../../assets/images/ambiente/fachada/fachada-filtro-es.png");
+}
