@@ -41,7 +41,7 @@ nav#nav-principal {
     & > li > a {
       /* Dimensões (área de toque) */
       width: inherit;
-      height: 55px;
+      height: 4rem;
 
       /* Flexbox */
       justify-content: flex-start;
