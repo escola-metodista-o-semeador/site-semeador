@@ -12,6 +12,10 @@ article {
   li {
     text-align: justify;
     font-size: 1.063rem; /* 17px */
+
+    /* Container para artigos */
+    max-width: 1024px;
+    margin: auto;
   }
 
   /* Parágrafos */
