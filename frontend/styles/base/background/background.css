@@ -24,7 +24,10 @@
   --background-destaque-sutil-contraste: var(--background-destaque-sutil-escuro);
 
   /* Background cinza */
-  --background-cinza: var(--cinza-claro);
+  --background-cinza-claro: var(--cinza-claro);
+  --background-cinza-escuro: var(--cinza-escuro02);
+  --background-cinza: var(--background-cinza-claro);
+  --background-cinza-contraste: var(--background-cinza-escuro);
 }
 
 /* Background padrão da página */

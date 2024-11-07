@@ -30,6 +30,7 @@
   --preto02: #161616;
   --preto02-transparente1: rgba(22, 22, 22, 0.85);
   --cinza-escuro01: #242424;
+  --cinza-escuro02: #383838;
 
   /* Cores em uso */
   --cor-primaria: var(--roxo-escuro);
