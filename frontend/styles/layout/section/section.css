@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* Seções */
+
+.bg-destaque-sutil {
+  background-color: var(--background-destaque-sutil);
+  border-radius: var(--corner-large);
+  /* Espaçamento */
+  margin-block: 40px;
+}

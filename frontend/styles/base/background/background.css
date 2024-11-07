@@ -16,6 +16,9 @@
   --background: var(--background-claro);
   --background-contraste: var(--background-escuro);
   --background-transparente: var(--background-claro-transparente);
+
+  /* Background destaque */
+  --background-destaque-sutil: var(--roxo-claro);
 }
 
 /* Background padrão da página */
@@ -32,9 +35,4 @@ body {
 /* Background transparente */
 .bg-transparente {
   background-color: var(--background-transparente);
-}
-
-/* Background roxo */
-.bg-roxo {
-  background-color: var(--roxo-claro);
 }
