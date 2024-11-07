@@ -38,6 +38,9 @@
 @import url("components/button/botoes-mobile.css") screen and (max-width: 1024px);
 @import url("components/button/botoes-desktop.css") screen and (min-width: 1025px);
 
+/* Cards-links */
+@import url("components/cards-links/cards-links-geral.css");
+
 /* Links de redes sociais */
 @import url("components/social-media/social-media.css");
 

@@ -19,6 +19,9 @@
 
   /* Background destaque */
   --background-destaque-sutil: var(--roxo-claro);
+
+  /* Background cinza */
+  --background-cinza: var(--cinza-claro);
 }
 
 /* Background padrão da página */
