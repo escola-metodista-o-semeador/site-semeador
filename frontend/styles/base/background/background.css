@@ -17,8 +17,11 @@
   --background-contraste: var(--background-escuro);
   --background-transparente: var(--background-claro-transparente);
 
-  /* Background destaque */
-  --background-destaque-sutil: var(--roxo-claro);
+  /* Background com destaque sutil */
+  --background-destaque-sutil-claro: var(--roxo-claro);
+  --background-destaque-sutil-escuro: var(--cinza-escuro01);
+  --background-destaque-sutil: var(--background-destaque-sutil-claro);
+  --background-destaque-sutil-contraste: var(--background-destaque-sutil-escuro);
 
   /* Background cinza */
   --background-cinza: var(--cinza-claro);
