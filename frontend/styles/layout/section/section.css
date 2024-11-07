@@ -6,4 +6,5 @@
   border-radius: var(--corner-large);
   /* Espaçamento */
   margin-block: 40px;
+  padding-block: 40px;
 }
