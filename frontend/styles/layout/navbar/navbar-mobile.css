@@ -11,6 +11,7 @@ nav#nav-principal {
   /* Dimensões */
   height: 100vh;
   width: 64vw;
+  max-width: 320px;
 
   /* Aparência */
   background-color: var(--background-transparente);
@@ -41,7 +42,7 @@ nav#nav-principal {
     & > li > a {
       /* Dimensões (área de toque) */
       width: inherit;
-      height: 55px;
+      height: 4rem;
 
       /* Flexbox */
       justify-content: flex-start;
@@ -92,5 +93,7 @@ nav#nav-principal {
 #botao-fechar-navbar {
   width: fit-content;
   align-self: flex-end;
+  /* Espaçamento */
   margin-right: var(--padding-lateral-container);
+  margin-bottom: 16px;
 }

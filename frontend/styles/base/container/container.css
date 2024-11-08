@@ -5,6 +5,9 @@
   /* Container mobile */
   --container: 91vw;
 
+  /* Container para artigos */
+  --container-artigo: 1024px;
+
   /* Calcular padding lateral para container */
   --padding-lateral-container: calc((100vw - var(--container)) / 2);
 }
@@ -21,4 +24,13 @@
   :root {
     --container: 1240px;
   }
+}
+
+/* Containers para artigos */
+.pd-container-artigo {
+  padding-inline: calc((100vw - var(--container-artigo)) / 2);
+}
+.container-artigo {
+  max-width: var(--container-artigo);
+  margin: auto;
 }

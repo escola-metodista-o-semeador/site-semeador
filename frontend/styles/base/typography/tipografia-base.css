@@ -33,6 +33,11 @@ h4 {
   /* Fonte de títulos */
   font-family: var(--fonte-titulo);
 }
+h1,
+h2 {
+  /* Geral */
+  text-align: center;
+}
 
 /* Títulos com ícones SVG */
 .titulo-icone {
@@ -47,14 +52,14 @@ h1 {
   font-weight: 600;
   color: var(--cor-primaria-tema);
   /* Mobile */
-  font-size: 2.5rem; /* 40px */
+  font-size: 3.5rem; /* 56px */
 }
 /* Título H2 */
 h2 {
   /* Geral */
   font-weight: 500;
   /* Mobile */
-  font-size: 2rem; /* 32px */
+  font-size: 3rem; /* 48px */
 }
 /* Título H3 */
 h3 {
@@ -77,8 +82,9 @@ h4 {
   font-size: 1.125rem; /* 18px */
 }
 
-/* Parágrafos */
-p {
+/* Parágrafos e texto */
+p,
+li {
   /* Mobile */
   font-size: 1rem; /* 16px */
 
@@ -90,4 +96,8 @@ p {
 
 /* Links */
 a {
+  /* Links sem cor de destaque */
+  &.no-recolor {
+    color: inherit;
+  }
 }

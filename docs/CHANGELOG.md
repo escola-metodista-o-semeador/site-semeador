@@ -4,6 +4,41 @@
 
 ## Versões pré-lançamento
 
+<!-- v0.0.4 -->
+
+### Versão 0.0.4 - 2024-11-06
+
+<!-- Link pra tag -->
+
+<a href="https://github.com/escola-metodista-o-semeador/site-semeador/releases/tag/v0.0.4">Ver tag ↗️</a>
+
+<!-- Link pro commit -->
+
+**Commit:** <a href="https://github.com/escola-metodista-o-semeador/site-semeador/commit/136da846a6318d6e2bffdaa6abeb7759080803f0">`136da84`</a>
+
+#### Novidades:
+
+- Links de redes sociais (Facebook, Instagram e WhatsApp) no rodapé;
+- Criação das páginas de artigos:
+  - <a href="https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/sobre.html" target="_blank">Sobre a Escola</a>
+  - <a href="https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/segmentos-educacionais.html" target="_blank">Segmentos Educacionais</a>
+
+#### Manutenções:
+
+- Barra de navegação mobile:
+  - Adição de espaçamento inferior no botão de fechar;
+  - Aumento na altura dos blocos de links para aumentar a área de toque;
+  - Largura limitada em telas médias (tablets).
+- Rodapé:
+  - Efeito hover nos links de telefones;
+  - Aumento dos cantos arredondados.
+
+#### Correções:
+
+- Correção de problema que fechava a aba do site ao usar os links de telefone, que necessitavam de uma aplicação externa (principalmente em computadores). Agora, ao selecionar os links, a aplicação para telefones é aberta e a aba do site continua aberta.
+
+---
+
 <!-- v0.0.3 -->
 
 ### Versão 0.0.3 - 2024-11-04
