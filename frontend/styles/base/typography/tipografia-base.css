@@ -101,3 +101,9 @@ a {
     color: inherit;
   }
 }
+
+/* Cor de texto selecionado */
+::selection {
+  background-color: var(--cor-primaria);
+  color: var(--letra-branca);
+}
