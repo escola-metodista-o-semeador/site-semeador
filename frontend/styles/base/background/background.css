@@ -16,6 +16,18 @@
   --background: var(--background-claro);
   --background-contraste: var(--background-escuro);
   --background-transparente: var(--background-claro-transparente);
+
+  /* Background com destaque sutil */
+  --background-destaque-sutil-claro: var(--roxo-claro);
+  --background-destaque-sutil-escuro: var(--cinza-escuro01);
+  --background-destaque-sutil: var(--background-destaque-sutil-claro);
+  --background-destaque-sutil-contraste: var(--background-destaque-sutil-escuro);
+
+  /* Background cinza */
+  --background-cinza-claro: var(--cinza-claro);
+  --background-cinza-escuro: var(--cinza-escuro02);
+  --background-cinza: var(--background-cinza-claro);
+  --background-cinza-contraste: var(--background-cinza-escuro);
 }
 
 /* Background padrão da página */
@@ -32,9 +44,4 @@ body {
 /* Background transparente */
 .bg-transparente {
   background-color: var(--background-transparente);
-}
-
-/* Background roxo */
-.bg-roxo {
-  background-color: var(--roxo-claro);
 }
