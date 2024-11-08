@@ -37,12 +37,18 @@ ul.conjunto-cards01 {
     /* Ícone */
     & svg,
     & img {
+      /* Tamanho */
       height: 48px;
       width: 48px;
+      /* Transição */
+      transition: height 0.5s, width 0.5s;
     }
 
+    /* Transições */
+    transition-property: background-color, font-size;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
     /* Efeito hover */
-    transition: background 0.5s ease-in-out;
     &:hover {
       background-color: var(--background-cinza-contraste);
     }
@@ -61,14 +67,14 @@ ul.conjunto-cards01 {
     }
   }
 }
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 736px) {
   ul.conjunto-cards01 {
     /* 3 colunas */
     grid-template-columns: repeat(3, 1fr);
 
     & > li > a {
       /* Aumentar fonte */
-      font-size: ;
+      font-size: 1.25rem; /* 20px */
 
       /* Aumentar ícones */
       & svg,
