@@ -39,7 +39,7 @@
 @import url("components/button/botoes-desktop.css") screen and (min-width: 1025px);
 
 /* Cards-links */
-@import url("components/cards-links/cards-links-geral.css");
+@import url("components/cards-links/cards-links.css");
 
 /* Links de redes sociais */
 @import url("components/social-media/social-media.css");
