@@ -32,9 +32,14 @@ ul.lista-redes-sociais {
   font-size: 1.063rem; /* 17px */
 
   /* Ícones */
-  &::before {
+  & .branco,
+  & .colorido {
     height: 19px;
     width: 19px;
+  }
+  /* Ocultar ícone colorido sem hover */
+  & .colorido {
+    display: none;
   }
 
   /* Transição */
@@ -44,58 +49,70 @@ ul.lista-redes-sociais {
   /* Efeito hover */
   &:hover {
     background-color: var(--branco01);
+
+    /* Alterar ícones */
+    & .branco {
+      display: none;
+    }
+    & .colorido {
+      display: block;
+    }
   }
 
   /* Link do Instagram */
   &.link-instagram {
-    /* Ícone */
-    &::before {
+    /* Ícones */
+    /* Ícone branco */
+    & .branco {
       content: url("../../../assets/svgs/social-media/instagram-glyph-white.svg");
     }
+    /* Ícone colorido */
+    & .colorido {
+      content: url("../../../assets/svgs/social-media/instagram-glyph-gradient.svg");
+    }
+
     /* Efeito hover */
     &:hover {
       /* Colorir texto (gradiente) */
       & span {
         background: var(--gradiente-instagram);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
-      }
-      /* Colorir ícone */
-      &::before {
-        content: url("../../../assets/svgs/social-media/instagram-glyph-gradient.svg");
       }
     }
   }
   /* Link do Facebook */
   &.link-facebook {
-    /* Ícone */
-    &::before {
+    /* Ícones */
+    /* Ícone branco */
+    & .branco {
       content: url("../../../assets/svgs/social-media/facebook-glyph-white.svg");
+    }
+    /* Ícone colorido */
+    & .colorido {
+      content: url("../../../assets/svgs/social-media/facebook-glyph-color.svg");
     }
     /* Efeito hover */
     &:hover {
       /* Colorir texto */
       color: var(--cor-facebook);
-      /* Colorir ícone */
-      &::before {
-        content: url("../../../assets/svgs/social-media/facebook-glyph-color.svg");
-      }
     }
   }
   /* Link do WhatsApp */
   &.link-whatsapp {
-    /* Ícone */
-    &::before {
+    /* Ícones */
+    /* Ícone branco */
+    & .branco {
       content: url("../../../assets/svgs/social-media/whatsapp-glyph-white.svg");
+    }
+    /* Ícone colorido */
+    & .colorido {
+      content: url("../../../assets/svgs/social-media/whatsapp-glyph-color.svg");
     }
     /* Efeito hover */
     &:hover {
       /* Colorir texto */
       color: var(--cor-whatsapp);
-      /* Colorir ícone */
-      &::before {
-        content: url("../../../assets/svgs/social-media/whatsapp-glyph-color.svg");
-      }
     }
   }
 }
