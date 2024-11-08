@@ -5,3 +5,11 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  /* Scroll para seção específica de uma página */
+  /* Scroll suave com animação */
+  scroll-behavior: smooth;
+  /* espaçamento superior (pro header não ficar em cima) */
+  scroll-padding-top: 80px;
+}
