@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* Cards de links (geral e mobile) */
+
+ul.conjunto-cards01 {
+  list-style-type: none;
+
+  /* Grid */
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 24px;
+  column-gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Blocos de links internos */
+  & > li > a {
+    /* Aparência */
+    background-color: var(--background-cinza);
+    border-radius: var(--corner-medium);
+    box-shadow: var(--shadow01);
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Espaçamento */
+    padding: 16px 8px;
+    gap: 8px;
+    /* Dimensões */
+    height: 100%;
+
+    /* Tipografia */
+    font-size: 1.125rem; /* 18px */
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    text-align: center;
+
+    /* Ícone */
+    & svg,
+    & img {
+      /* Tamanho */
+      height: 48px;
+      width: 48px;
+      /* Transição */
+      transition: height 0.5s, width 0.5s;
+    }
+
+    /* Transições */
+    transition-property: background-color, font-size;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    /* Efeito hover */
+    &:hover {
+      background-color: var(--background-cinza-contraste);
+    }
+  }
+}
+
+/* Quantidades de colunas */
+@media screen and (min-width: 448px) {
+  ul.conjunto-cards01 {
+    /* 2 colunas */
+    grid-template-columns: repeat(2, 1fr);
+
+    /* Último bloco ocupar 2 espaços */
+    &.ultimo-maior li:last-child {
+      grid-column: span 2;
+    }
+  }
+}
+@media screen and (min-width: 736px) {
+  ul.conjunto-cards01 {
+    /* 3 colunas */
+    grid-template-columns: repeat(3, 1fr);
+
+    & > li > a {
+      /* Aumentar fonte */
+      font-size: 1.25rem; /* 20px */
+
+      /* Aumentar ícones */
+      & svg,
+      & img {
+        width: 56px;
+        height: 56px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1152px) {
+  ul.conjunto-cards01 {
+    /* 4 colunas */
+    grid-template-columns: repeat(4, 1fr);
+
+    & > li > a {
+      /* Aumentar fonte */
+      font-size: 1.5rem; /* 24px */
+    }
+  }
+}

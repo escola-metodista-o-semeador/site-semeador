@@ -28,7 +28,7 @@ ul.lista-redes-sociais {
 
   /* Tipografia */
   text-decoration: none;
-  color: var(--letra-branca);
+  color: var(--cinza-claro);
   font-size: 1.063rem; /* 17px */
 
   /* Ícones */

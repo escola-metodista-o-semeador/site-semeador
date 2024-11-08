@@ -68,6 +68,12 @@ function aplicarTema(
     // Background
     root.style.setProperty("--background", "var(--background-claro)")
     root.style.setProperty("--background-contraste", "var(--background-escuro)")
+    // Background destaque sutil
+    root.style.setProperty("--background-destaque-sutil", "var(--background-destaque-sutil-claro)")
+    root.style.setProperty("--background-destaque-sutil-contraste", "var(--background-destaque-sutil-escuro)")
+    // Background cinza
+    root.style.setProperty("--background-cinza", "var(--background-cinza-claro)")
+    root.style.setProperty("--background-cinza-contraste", "var(--background-cinza-escuro)")
 
     // Background transparentes
     root.style.setProperty("--background-transparente", "var(--background-claro-transparente)")
@@ -92,6 +98,12 @@ function aplicarTema(
     // Backgrounds
     root.style.setProperty("--background", "var(--background-escuro)")
     root.style.setProperty("--background-contraste", "var(--background-claro)")
+    // Background destaque sutil
+    root.style.setProperty("--background-destaque-sutil", "var(--background-destaque-sutil-escuro)")
+    root.style.setProperty("--background-destaque-sutil-contraste", "var(--background-destaque-sutil-claro)")
+    // Background cinza
+    root.style.setProperty("--background-cinza", "var(--background-cinza-escuro)")
+    root.style.setProperty("--background-cinza-contraste", "var(--background-cinza-claro)")
 
     // Background transparentes
     root.style.setProperty("--background-transparente", "var(--background-escuro-transparente)")
