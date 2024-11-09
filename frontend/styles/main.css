@@ -25,6 +25,9 @@
 /* Sombras */
 @import url("base/shadows/sombras.css");
 
+/* Espaçamento */
+@import url("base/spacing/espacamento.css");
+
 /* Container */
 @import url("base/container/container.css");
 
@@ -53,6 +56,7 @@
 @import url("article/article-desktop.css") screen and (min-width: 1024px);
 
 /* Layout */
+@import url("layout/base/layout-geral.css");
 
 /* Header */
 @import url("layout/header/header-geral.css");

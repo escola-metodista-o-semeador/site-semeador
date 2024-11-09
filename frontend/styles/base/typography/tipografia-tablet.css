@@ -2,12 +2,28 @@
 /* Tipografia para tablet */
 /* vw >= 768px */
 
+/* Títulos com ícones */
+.titulo-icone {
+  /* Alinhamento no desktop */
+  justify-content: start;
+}
+
 /* Títulos */
 h1 {
   font-size: 4rem; /* 64px */
 }
 h2 {
   font-size: 3.5rem; /* 56px */
+
+  /* Com ícone */
+  &.titulo-icone svg {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  /* Menor */
+  &.menor {
+    font-size: 2.5rem; /* 40px */
+  }
 }
 h3 {
   font-size: 2rem; /* 32px */

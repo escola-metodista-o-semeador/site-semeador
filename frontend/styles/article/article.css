@@ -41,4 +41,15 @@ article {
       margin-top: 2rem;
     }
   }
+
+  /* Imagens em artigos */
+  & img {
+    /* Dimensões */
+    width: 100%;
+    height: auto;
+
+    /* Aparência */
+    border-radius: var(--corner-small);
+    box-shadow: var(--shadow01);
+  }
 }

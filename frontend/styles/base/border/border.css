@@ -4,10 +4,14 @@
 /* Variáveis CSS de bordas */
 :root {
   --borda01: 1px solid var(--cinza-claro);
+
+  /* Borda cor principal */
+  --borda-principal: 2px solid var(--cor-primaria);
+  /* Borda cor secundária */
+  --borda-secundaria: 2px solid var(--cor-secundaria);
 }
 
 /* Borda superior (como divisor) */
 .border-top-01 {
   border-top: var(--borda01);
 }
-

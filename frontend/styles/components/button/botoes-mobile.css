@@ -4,7 +4,7 @@
 button,
 .botao {
   /* Tipografia */
-  font-size: 1rem; /* 16px */
+  font-size: 1.125rem; /* 18px */
 
   /* Espaçamento */
   padding-inline: 12px; /* padding left e right */
