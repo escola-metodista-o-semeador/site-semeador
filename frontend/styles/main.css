@@ -25,6 +25,9 @@
 /* Sombras */
 @import url("base/shadows/sombras.css");
 
+/* Espaçamento */
+@import url("base/spacing/espacamento.css");
+
 /* Container */
 @import url("base/container/container.css");
 
