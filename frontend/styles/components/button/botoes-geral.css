@@ -39,7 +39,7 @@ button,
   font-family: inherit; /* usar fonte do resto da interface em vez de fonte do user agent para <button> */
 
   /* Transição */
-  transition-property: background-color, border-color, color, font-size, padding;
+  transition-property: background-color, border-color, color, font-size, padding, width;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }

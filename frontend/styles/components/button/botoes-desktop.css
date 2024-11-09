@@ -9,6 +9,8 @@ button,
   /* Espaçamento */
   padding-inline: 14px; /* padding left e right */
   gap: 10px;
+  /* Dimensões */
+  width: fit-content;
 
   /* Ícone */
   & .icone {
