@@ -52,6 +52,11 @@ ul.conjunto-cards01 {
     &:hover {
       background-color: var(--background-cinza-contraste);
     }
+
+    /* Link da página de evento atual */
+    &.link-evento-atual {
+      border: var(--borda-secundaria);
+    }
   }
 }
 
