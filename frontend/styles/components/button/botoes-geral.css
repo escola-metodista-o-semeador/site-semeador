@@ -14,6 +14,9 @@ button {
 /* Estilo geral para botões */
 button,
 .botao {
+  /* Remover estilização em botões links */
+  text-decoration: none;
+
   /* Cantos arredondados */
   border-radius: var(--corner-extra-small);
 
@@ -31,6 +34,9 @@ button,
 
   /* Não quebrar texto por padrão */
   text-wrap: nowrap;
+
+  /* Tipografia */
+  font-family: inherit; /* usar fonte do resto da interface em vez de fonte do user agent para <button> */
 
   /* Transição */
   transition-property: background-color, border-color, color, font-size, padding;
