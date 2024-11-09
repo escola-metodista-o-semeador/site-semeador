@@ -4,6 +4,29 @@
 
 ## Versões pré-lançamento
 
+<!-- v0.0.5 -->
+
+### Versão 0.0.5 - 2024-11-09
+
+<!-- Link pra tag -->
+
+<a href="https://github.com/escola-metodista-o-semeador/site-semeador/releases/tag/v0.0.5">Ver tag ↗️</a>
+
+<!-- Link pro commit -->
+
+**Commit:** <a href="https://github.com/escola-metodista-o-semeador/site-semeador/commit/06ad8301661d61720e102eea5a3725febd511cd8">`06ad830`</a>
+
+#### Novidades:
+- Efeito de scroll ao selecionar um link de uma seção específica da página;
+- Criação de 8 páginas sobre os eventos promovidos pela Escola Metodista O Semeador:
+
+#### Manutenções:
+- Edição da imagem de fundo `fachada.png` (e suas variações de tamanho) para fornecer um melhor contraste ao texto do headline;
+- Otimização da animação ao passar o mouse nos links de redes sociais do rodapé;
+- Personalização da cor de texto selecionado pelo usuário.
+
+---
+
 <!-- v0.0.4 -->
 
 ### Versão 0.0.4 - 2024-11-06
