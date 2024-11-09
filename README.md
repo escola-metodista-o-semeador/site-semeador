@@ -32,90 +32,122 @@
 
 ## 🛠️ Ferramentas e Tecnologias Utilizadas
 
-<style>
-  .tecnologias-lista {
-    display: flex; 
-    flex-direction: row; 
-    align-items: center; 
-    gap: 20px;
-
-    margin-left: 0.5rem;
-
-    /* Blocos de tecnologias */
-    & > div {
-      display: flex; 
-      flex-direction: column; 
-      align-items: center; 
-      gap: 6px;
-      width: fit-content;
-
-      /* Tamanhos das imagens */
-      & > img { 
-        height: 48px;
-      }
-      /* Texto */
-      & > span {
-        font-size: 0.9rem;
-        text-align: center;
-        text-wrap: nowrap;
-      }
-    }
-  }
-</style>
-
 <!-- Front-end -->
 
 ### Front-end
 
-<div class="tecnologias-lista">
+<div style="
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    gap: 20px;
+    margin-left: 0.5rem;">
   <!-- HTML -->
-  <div>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5 logo"  />
-    <span>HTML</span>
+  <div style="display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      gap: 6px;
+      width: fit-content;">
+    <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5 logo"  />
+    <span style="font-size: 0.95rem;
+        text-align: center;
+        text-wrap: nowrap;">HTML</span>
   </div>
   <!-- CSS -->
-  <div>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3 logo" />
-    <span>CSS</span>
+  <div style="display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      gap: 6px;
+      width: fit-content;">
+    <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3 logo" />
+    <span style="font-size: 0.95rem;
+        text-align: center;
+        text-wrap: nowrap;">CSS</span>
   </div>
   <!-- JavaScript -->
-  <div>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript logo"  />
-    <span>JavaScript</span>
+  <div style="display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      gap: 6px;
+      width: fit-content;">
+    <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript logo"  />
+    <span style="font-size: 0.95rem;
+        text-align: center;
+        text-wrap: nowrap;">JavaScript</span>
   </div>
 </div>
 
 ### Back-end
 
-<div class="tecnologias-lista">
+<div style="
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    gap: 20px;
+    margin-left: 0.5rem;">
   <!-- NodeJS -->
-  <div>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs logo" />
-    <span>NodeJS</span>
+  <div style="display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      gap: 6px;
+      width: fit-content;">
+    <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs logo" />
+    <span style="font-size: 0.95rem;
+        text-align: center;
+        text-wrap: nowrap;">NodeJS</span>
   </div>
   <!-- MongoDB -->
-  <div>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb logo"  />
-    <span>MongoDB</span>
+  <div style="display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      gap: 6px;
+      width: fit-content;">
+    <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb logo"  />
+    <span style="font-size: 0.95rem;
+        text-align: center;
+        text-wrap: nowrap;">MongoDB</span>
   </div>
 </div>
 
 ### Ambiente de desenvolvimento e controle de versão
 
-<div class="tecnologias-lista">
+<div style="
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    gap: 20px;
+    margin-left: 0.5rem;">
   <!-- VSCode -->
-  <div>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode logo" />
-    <span>VS Code</span>
+  <div style="display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      gap: 6px;
+      width: fit-content;">
+    <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode logo" />
+    <span style="font-size: 0.95rem;
+        text-align: center;
+        text-wrap: nowrap;">VS Code</span>
   </div>
   <!-- Git -->
-  <div>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git logo"  />
-    <span>Git</span>
+  <div style="display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      gap: 6px;
+      width: fit-content;">
+    <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git logo"  />
+    <span style="font-size: 0.95rem;
+        text-align: center;
+        text-wrap: nowrap;">Git</span>
   </div>
   <!-- GitHub -->
-  <div>
-    <img src="https://skillicons.dev/icons?i=github" alt="git logo"  />
-    <span>GitHub</span>
+  <div style="display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      gap: 6px;
+      width: fit-content;">
+    <img height="48" src="https://skillicons.dev/icons?i=github" alt="git logo"  />
+    <span style="font-size: 0.95rem;
+        text-align: center;
+        text-wrap: nowrap;">GitHub</span>
   </div>
 </div>
