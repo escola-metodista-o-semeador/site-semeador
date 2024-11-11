@@ -58,6 +58,20 @@ ul.conjunto-cards01 {
       border: var(--borda-secundaria);
     }
   }
+
+  /* Classe de ícone maior */
+  &.icone-maior {
+    & > li > a {
+      padding-block: 24px;
+      gap: 16px;
+
+      & svg,
+      & img {
+        height: 80px;
+        width: 80px;
+      }
+    }
+  }
 }
 
 /* Quantidades de colunas */
@@ -87,6 +101,13 @@ ul.conjunto-cards01 {
         width: 56px;
         height: 56px;
       }
+    }
+
+    /* Aumentar ícones maiores */
+    &.icone-maior > li > a > svg,
+    &.icone-maior > li > a > img {
+      height: 88px;
+      width: 88px;
     }
   }
 }
