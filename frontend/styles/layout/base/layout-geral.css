@@ -122,3 +122,8 @@
     }
   }
 }
+
+/* Alinhamento centralizado */
+.align-center {
+  text-align: center;
+}
