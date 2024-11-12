@@ -82,12 +82,18 @@
     justify-content: center;
 
     /* Ícone */
-    & svg {
+    & svg,
+    img {
       width: 80px;
       height: 80px;
 
+      /* Transição ao aumentar o tamanho */
       transition-property: width, height;
-      transition-duration: 2s;
+      transition-duration: 1s;
+    }
+    /* Remover estilos de imagens */
+    & img {
+      box-shadow: none;
     }
   }
 }
@@ -95,6 +101,7 @@
 @media screen and (min-width: 768px) {
   & .colunas-icone {
     flex-direction: row;
+    gap: 16px;
 
     /* Coluna com texto */
     & .coluna-esquerda {
@@ -108,7 +115,8 @@
   }
   @media screen and (min-width: 824px) {
     /* Aumentar tamanho do ícone */
-    .colunas-icone .coluna-direita svg {
+    .colunas-icone .coluna-direita svg,
+    .colunas-icone .coluna-direita img {
       width: 240px;
       height: 240px;
     }
