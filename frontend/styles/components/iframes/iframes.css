@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* Estilos para iframes */
+
+/* Google Maps */
+iframe.google-maps {
+  margin-top: 16px;
+  width: 100%;
+  height: 45vw;
+  max-height: 50vh;
+  border-radius: var(--corner-medium);
+}
+
+/* YouTube */
+iframe.youtube {
+  /* Proporção */
+  aspect-ratio: 16/9; /* proporção: 16:9 */
+
+  /* Dimensões mobile */
+  width: 100%;
+  height: auto;
+
+  /* Decoração */
+  border-radius: var(--corner-medium);
+  box-shadow: var(--shadow04);
+}
+@media screen and (min-width: 1024px) {
+  iframe.youtube {
+    /* Dimensões desktop */
+    min-height: 397px;
+    height: 70vh;
+    min-width: 706px;
+    width: auto;
+
+    /* Corner */
+    border-radius: var(--corner-large);
+  }
+}
