@@ -11,6 +11,11 @@
   /* Espaçamento */
   margin-bottom: 24px;
 
+  /* Textos sem alinhamento justificado */
+  .no-justify {
+    text-align: center;
+  }
+
   /* Mobile (empilhado) */
   flex-direction: column;
   & .coluna-esquerda,
@@ -22,6 +27,11 @@
 @media screen and (min-width: 768px) {
   .colunas {
     flex-direction: row;
+
+    /* Textos sem alinhamento justificado */
+    .no-justify {
+      text-align: start;
+    }
 
     /* Coluna esquerda */
     & .coluna-esquerda {
@@ -48,6 +58,59 @@
     }
     & .coluna-direita {
       width: 30%;
+    }
+  }
+}
+
+/* Colunas com ícones */
+.colunas-icone {
+  /* layout mobile */
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 0;
+
+  /* Tamanhos das colunas */
+  & .coluna-esquerda,
+  &.coluna-direita {
+    width: 100%;
+  }
+
+  /* Tamanho do ícone */
+  & .coluna-direita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Ícone */
+    & svg {
+      width: 80px;
+      height: 80px;
+
+      transition-property: width, height;
+      transition-duration: 2s;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  & .colunas-icone {
+    flex-direction: row;
+
+    /* Coluna com texto */
+    & .coluna-esquerda {
+      width: 100%;
+    }
+
+    /* Coluna com ícone */
+    & .coluna-direita {
+      width: fit-content;
+    }
+  }
+  @media screen and (min-width: 824px) {
+    /* Aumentar tamanho do ícone */
+    .colunas-icone .coluna-direita svg {
+      width: 240px;
+      height: 240px;
     }
   }
 }
