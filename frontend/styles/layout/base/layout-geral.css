@@ -11,6 +11,11 @@
   /* Espaçamento */
   margin-bottom: 24px;
 
+  /* Textos sem alinhamento justificado */
+  .no-justify {
+    text-align: center;
+  }
+
   /* Mobile (empilhado) */
   flex-direction: column;
   & .coluna-esquerda,
@@ -22,6 +27,11 @@
 @media screen and (min-width: 768px) {
   .colunas {
     flex-direction: row;
+
+    /* Textos sem alinhamento justificado */
+    .no-justify {
+      text-align: start;
+    }
 
     /* Coluna esquerda */
     & .coluna-esquerda {
@@ -50,4 +60,70 @@
       width: 30%;
     }
   }
+}
+
+/* Colunas com ícones */
+.colunas-icone {
+  /* layout mobile */
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 0;
+
+  /* Tamanhos das colunas */
+  & .coluna-esquerda,
+  &.coluna-direita {
+    width: 100%;
+  }
+
+  /* Tamanho do ícone */
+  & .coluna-direita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Ícone */
+    & svg,
+    img {
+      width: 80px;
+      height: 80px;
+
+      /* Transição ao aumentar o tamanho */
+      transition-property: width, height;
+      transition-duration: 1s;
+    }
+    /* Remover estilos de imagens */
+    & img {
+      box-shadow: none;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  & .colunas-icone {
+    flex-direction: row;
+    gap: 16px;
+
+    /* Coluna com texto */
+    & .coluna-esquerda {
+      width: 100%;
+    }
+
+    /* Coluna com ícone */
+    & .coluna-direita {
+      width: fit-content;
+    }
+  }
+  @media screen and (min-width: 824px) {
+    /* Aumentar tamanho do ícone */
+    .colunas-icone .coluna-direita svg,
+    .colunas-icone .coluna-direita img {
+      width: 240px;
+      height: 240px;
+    }
+  }
+}
+
+/* Alinhamento centralizado */
+.align-center {
+  text-align: center;
 }
