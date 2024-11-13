@@ -42,8 +42,14 @@
   }
 }
 /* 3 linhas */
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 1024px) {
   .lista-parceiros {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* 4 linhas */
+@media screen and (min-width: 1280px) {
+  .lista-parceiros {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
