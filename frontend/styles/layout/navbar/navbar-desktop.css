@@ -8,7 +8,7 @@ nav#nav-principal {
   /* Flexbox */
   display: flex;
   /* Espaçamento */
-  margin-inline: 10px;
+  margin-inline: 16px;
 
   /* Lista de links */
   & > ul {
@@ -17,7 +17,7 @@ nav#nav-principal {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: 5px;
+    gap: 16px;
 
     & > li {
       width: inherit;
