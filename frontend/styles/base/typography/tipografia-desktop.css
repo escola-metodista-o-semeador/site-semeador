@@ -27,6 +27,7 @@ h4 {
 }
 
 /* Parágrafos */
-p {
-  font-size: 1.125rem; /* 18px */
+p,
+li {
+  font-size: 1.25rem; /* 20px */
 }
