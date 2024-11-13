@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* Lista de imagens dos parceiros */
+/* Base e mobile */
+
+.lista-parceiros {
+  /* Espaçamento */
+  margin-block: 24px;
+
+  /* Grid Layout */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+
+  /* Imagens */
+  & img {
+    /* Dimensões */
+    width: calc(100% - 32px);
+    max-height: 160px;
+    object-fit: contain;
+    /* Espaçamento */
+    padding: 16px;
+
+    /* Aparência */
+    background-color: var(--branco);
+    border-radius: var(--corner-medium);
+    box-shadow: var(--shadow01);
+  }
+}
+
+/* 2 frames */
+@media screen {
+    
+}
