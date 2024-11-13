@@ -125,3 +125,7 @@ a {
   background-color: var(--cor-primaria);
   color: var(--letra-branca);
 }
+
+.centralizado {
+  text-align: center;
+}
