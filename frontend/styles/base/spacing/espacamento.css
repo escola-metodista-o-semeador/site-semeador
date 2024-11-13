@@ -9,6 +9,10 @@
   margin-bottom: 32px;
 }
 
+.espacamento-superior-pequeno {
+  margin-top: 8px;
+}
+
 /* Paddings */
 .padding-medio {
   padding-inline: 16px;
