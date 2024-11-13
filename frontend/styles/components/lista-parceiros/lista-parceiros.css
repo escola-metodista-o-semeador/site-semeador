@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* Lista de imagens dos parceiros */
+/* Base e mobile */
+
+.lista-parceiros {
+  /* Espaçamento */
+  margin-block: 24px;
+
+  /* Grid Layout */
+  display: grid;
+  /* Quantidade e comprimento de colunas */
+  grid-template-columns: 1fr;
+  /* Altura das linhas */
+  grid-auto-rows: 1fr;
+  /* Espaçamento dos itens */
+  row-gap: 16px;
+  column-gap: 16px;
+
+  /* Imagens */
+  & img {
+    /* Dimensões */
+    width: calc(100% - 32px);
+    height: 100%;
+    max-height: 120px;
+    /* Não distorcer as imagens */
+    object-fit: contain;
+
+    /* Espaçamento */
+    padding: 16px;
+
+    /* Aparência */
+    background-color: var(--branco);
+    border-radius: var(--corner-medium);
+    box-shadow: var(--shadow01);
+  }
+}
+
+/* 2 linhas */
+@media screen and (min-width: 640px) {
+  .lista-parceiros {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* 3 linhas */
+@media screen and (min-width: 1024px) {
+  .lista-parceiros {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* 4 linhas */
+@media screen and (min-width: 1280px) {
+  .lista-parceiros {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

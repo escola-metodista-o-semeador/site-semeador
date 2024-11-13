@@ -47,6 +47,9 @@
 /* Links de redes sociais */
 @import url("components/social-media/social-media.css");
 
+/* Lista de Parceiros */
+@import url("components/lista-parceiros/lista-parceiros.css");
+
 /* Headlines */
 @import url("components/headline/headline.css");
 

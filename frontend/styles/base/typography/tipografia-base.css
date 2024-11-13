@@ -118,10 +118,29 @@ a {
   &.no-recolor {
     color: inherit;
   }
+  /* Links sem underline */
+  &.no-underline {
+    text-decoration: none;
+  }
 }
 
 /* Cor de texto selecionado */
 ::selection {
   background-color: var(--cor-primaria);
   color: var(--letra-branca);
+}
+
+/* Classes de alinhamento */
+/* Texto centralizado */
+.centralizado {
+  text-align: center;
+}
+/* Texto justificado */
+.justificado {
+  text-align: justify;
+}
+
+/* Remover marcador de listas */
+ul.sem-marcador {
+  list-style-type: none;
 }
