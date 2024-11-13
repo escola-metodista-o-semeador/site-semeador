@@ -8,15 +8,23 @@
 
   /* Grid Layout */
   display: grid;
+  /* Quantidade e comprimento de colunas */
   grid-template-columns: 1fr;
-  gap: 16px;
+  /* Altura das linhas */
+  grid-auto-rows: 1fr;
+  /* Espaçamento dos itens */
+  row-gap: 16px;
+  column-gap: 16px;
 
   /* Imagens */
   & img {
     /* Dimensões */
     width: calc(100% - 32px);
-    max-height: 160px;
+    height: 100%;
+    max-height: 120px;
+    /* Não distorcer as imagens */
     object-fit: contain;
+
     /* Espaçamento */
     padding: 16px;
 
@@ -27,7 +35,15 @@
   }
 }
 
-/* 2 frames */
-@media screen {
-    
+/* 2 linhas */
+@media screen and (min-width: 640px) {
+  .lista-parceiros {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* 3 linhas */
+@media screen and (min-width: 740px) {
+  .lista-parceiros {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
