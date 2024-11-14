@@ -11,7 +11,9 @@ button,
   gap: 8px;
 
   /* Ícone */
-  & .icone {
+  & .icone,
+  & svg,
+  & img {
     width: 25px;
     height: 25px;
   }

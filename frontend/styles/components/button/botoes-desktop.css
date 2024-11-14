@@ -13,7 +13,9 @@ button,
   width: fit-content;
 
   /* Ícone */
-  & .icone {
+  & .icone,
+  & svg,
+  & img {
     width: 30px;
     height: 30px;
   }
