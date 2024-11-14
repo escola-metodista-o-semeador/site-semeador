@@ -12,6 +12,9 @@ ul.conjunto-cards01 {
   justify-content: space-between;
   align-items: center;
 
+  /* Resolução de conflito */
+  padding-inline-start: 0;
+
   /* Blocos de links internos */
   & > li > a {
     /* Aparência */
@@ -42,6 +45,9 @@ ul.conjunto-cards01 {
       width: 48px;
       /* Transição */
       transition: height 0.5s, width 0.5s;
+
+      /* Resolução de conflito de estilos */
+      box-shadow: none;
     }
 
     /* Transições */

@@ -7,4 +7,10 @@
   /* Espaçamento */
   margin-block: 40px;
   padding-block: 40px;
+
+  /* Resolver conflitos: cor de títulos */
+  h2,
+  h3 {
+    color: var(--letra-uso);
+  }
 }

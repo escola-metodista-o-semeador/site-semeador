@@ -133,11 +133,15 @@ a {
 /* Classes de alinhamento */
 /* Texto centralizado */
 .centralizado {
-  text-align: center;
+  text-align: center !important;
+  /* Para listas */
+  & li {
+    text-align: center;
+  }
 }
 /* Texto justificado */
 .justificado {
-  text-align: justify;
+  text-align: justify !important;
 }
 
 /* Remover marcador de listas */
