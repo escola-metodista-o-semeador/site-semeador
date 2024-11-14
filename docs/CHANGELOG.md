@@ -4,6 +4,35 @@
 
 ## Versões pré-lançamento
 
+<!-- v0.0.6 -->
+
+### Versão 0.0.6 - 2024-11-14
+
+<!-- Link para tag -->
+
+<a href="https://github.com/escola-metodista-o-semeador/site-semeador/releases/tag/v0.0.6">Ver tag ↗️</a>
+
+<!-- Link pro commit -->
+
+**Commit:** <a href="https://github.com/escola-metodista-o-semeador/site-semeador/commit/d0d3bbbb7ec927d11c42e4453178fb15c861157e">`d0d3bbb`</a>
+
+#### Novidades:
+
+- Criação das páginas:
+  - Doação e Voluntariado;
+  - Página inicial (conteúdo).
+
+#### Manutenções:
+
+- Ajuste no texto "Formas de ajudar" na página de doações;
+- Mudança na imagem principal da página de evento Festa da Primavera;
+- Barra de navegação:
+  - Aumento do espaçamento dos links;
+  - Remoção de efeito desnecessário no dark mode;
+- Ajuste no tamanho da fonte de parágrafos para desktop.
+
+---
+
 <!-- v0.0.5 -->
 
 ### Versão 0.0.5 - 2024-11-09
@@ -17,10 +46,12 @@
 **Commit:** <a href="https://github.com/escola-metodista-o-semeador/site-semeador/commit/06ad8301661d61720e102eea5a3725febd511cd8">`06ad830`</a>
 
 #### Novidades:
+
 - Efeito de scroll ao selecionar um link de uma seção específica da página;
 - Criação de 8 páginas sobre os eventos promovidos pela Escola Metodista O Semeador:
 
 #### Manutenções:
+
 - Edição da imagem de fundo `fachada.png` (e suas variações de tamanho) para fornecer um melhor contraste ao texto do headline;
 - Otimização da animação ao passar o mouse nos links de redes sociais do rodapé;
 - Personalização da cor de texto selecionado pelo usuário.
