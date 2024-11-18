@@ -4,6 +4,25 @@
 
 ## Versões pré-lançamento
 
+<!-- v0.1.0 -->
+
+### Versão 0.1.0 - 2024-11-18
+
+<!-- Link para tag -->
+
+<a href="https://github.com/escola-metodista-o-semeador/site-semeador/releases/tag/v0.1.0">Ver tag ↗️</a>
+
+<!-- Link pro commit -->
+
+**Commit:** <a href="https://github.com/escola-metodista-o-semeador/site-semeador/commit/39447bad05bac1d781b161a02f85a59c6f4261de">`39447ba`</a>
+
+#### Novidades:
+
+- Otimização do site para SEO utilizando metadados do schema.org;
+- Criação do arquivo sitemap do site.
+
+---
+
 <!-- v0.0.6 -->
 
 ### Versão 0.0.6 - 2024-11-14
