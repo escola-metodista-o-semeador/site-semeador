@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+  <!-- Página inicial -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <!-- Sobre Nós -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/sobre.html</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <!-- Segmentos Educacionais -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/segmentos-educacionais.html</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <!-- Doações e Voluntariado -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/doacoes-voluntariado.html</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <!-- Eventos -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/eventos.html</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <!-- Celebração da Páscoa -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/celebracao-pascoa.html</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <!-- Festa da Família -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/festa-familia.html</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <!-- Festa Caipira -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/festa-caipira.html</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <!-- Semana do Aprendiz -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/semana-aprendiz.html</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <!-- Festa da Primavera -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/festa-primavera.html</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <!-- Dia Nacional de Ação de Graças e Aniversário da Escola -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/acao-de-gracas-e-aniversario.html</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <!-- Celebração de Natal -->
+  <url>
+    <loc>https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/celebracao-natal.html</loc>
+    <lastmod>2024-11-18T14:07:50+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+</urlset>
