@@ -14,11 +14,50 @@
 
 ## 👨‍💻 Integrantes do Projeto
 
-- <a href="https://github.com/alexandreraminelli" target="_blank">Alexandre Raminelli Junior</a>
-- <a href="https://github.com/lucasfalves07" target="_blank">Lucas Francisco Alves</a>
-- <a href="https://github.com/pedrocanova" target="_blank">Pedro do Couto Rosa Canova</a>
-- <a href="https://github.com/Robertkevyngg" target="_blank">Robert Kevyn Gonçalves Gomes</a>
-- <a href="https://github.com/victhorcastro" target="_blank">Victhor das Virgens Lima Castro</a>
+<table summary="Lista de integrantes do projeto com nomes, RA e funções.">
+  <!-- Cabeçalho da tabela -->
+  <thead>
+    <tr>
+      <th scope="col">Aluno</th>
+      <th scope="col">RA</th>
+      <th scope="col">Função</th>
+    </tr>
+  </thead>
+  <!-- Corpo da tabela -->
+  <tbody>
+    <tr>
+      <!-- Alexandre Raminelli Junior -->
+      <td><a href="https://github.com/alexandreraminelli" target="_blank">Alexandre Raminelli Junior</a></td>
+      <td>24.01625-0</td>
+      <td>Desenvolvedor front-end e designer de UI</td>
+    </tr>
+    <tr>
+      <!-- Lucas Francisco Alves -->
+      <td><a href="https://github.com/lucasfalves07" target="_blank">Lucas Francisco Alves</a></td>
+      <td>24.00902-4</td>
+      <td>Desenvolvedor back-end e banco de dados</td>
+    </tr>
+    <tr>
+      <!-- Pedro do Couto Rosa Canova -->
+      <td><a href="https://github.com/pedrocanova" target="_blank">Pedro do Couto Rosa Canova</a></td>
+      <td>24.01570-9</td>
+      <td>Desenvolvedor back-end e banco de dados</td>
+    </tr>
+    <tr>
+      <!-- Robert Kevyn Gonçalves Gomes -->
+      <td><a href="https://github.com/Robertkevyngg" target="_blank">Robert Kevyn Gonçalves Gomes</a></td>
+      <td>24.01631-4</td>
+      <td>Desenvolvedor back-end e banco de dados</td>
+    </tr>
+    <tr>
+      <!-- Victhor das Virgens Lima Castro -->
+      <td><a href="https://github.com/victhorcastro" target="_blank">Victhor das Virgens Lima Castro</a></td>
+      <td>24.01503-2</td>
+      <td>Desenvolvedor back-end e banco de dados</td>
+    </tr>
+
+ </tbody>
+</table>
 
 ## 🤝 Parceria
 

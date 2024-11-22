@@ -54,5 +54,5 @@
   // Aplicar formatador automaticamente ao salvar o arquivo usando Ctrl + S: true
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "cSpell.words": ["Gerti", "Gloger"]
+  "cSpell.words": ["Gerti", "Gloger", "Victhor"]
 }
