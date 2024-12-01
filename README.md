@@ -47,7 +47,7 @@
       <!-- Robert Kevyn Gonçalves Gomes -->
       <td><a href="https://github.com/Robertkevyngg" target="_blank">Robert Kevyn Gonçalves Gomes</a></td>
       <td>24.01631-4</td>
-      <td>Desenvolvedor back-end e banco de dados</td>
+      <td>Desenvolvedor back-end e Front-end</td>
     </tr>
     <tr>
       <!-- Victhor das Virgens Lima Castro -->
