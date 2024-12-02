@@ -1,0 +1,37 @@
+{
+  "name": "semeador-site",
+  "version": "1.0.0",
+  "description": "Site da Escola Metodista de Educação Especial O Semeador",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escola-metodista-o-semeador/site-semeador.git"
+  },
+  "author": "Equipe do Site Semeador",
+  "contributors": [
+    "Alexandre Raminelli Junior",
+    "Lucas Francisco Alves",
+    "Pedro do Couto Rosa Canova",
+    "Robert Kevyn Gonçalves Gomes",
+    "Victhor das Virgens Lima Castro"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/escola-metodista-o-semeador/site-semeador/issues"
+  },
+  "homepage": "https://escola-metodista-o-semeador.github.io/site-semeador/frontend/pages/",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
