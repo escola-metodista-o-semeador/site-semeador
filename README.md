@@ -35,13 +35,13 @@
       <!-- Lucas Francisco Alves -->
       <td><a href="https://github.com/lucasfalves07" target="_blank">Lucas Francisco Alves</a></td>
       <td>24.00902-4</td>
-      <td>Desenvolvedor back-end e banco de dados</td>
+      <td>Desenvolvedor back-end, front-end e banco de dados</td>
     </tr>
     <tr>
       <!-- Pedro do Couto Rosa Canova -->
       <td><a href="https://github.com/pedrocanova" target="_blank">Pedro do Couto Rosa Canova</a></td>
       <td>24.01570-9</td>
-      <td>Desenvolvedor back-end e banco de dados</td>
+      <td>Desenvolvedor back-end, front-end e banco de dados</td>
     </tr>
     <tr>
       <!-- Robert Kevyn Gonçalves Gomes -->
@@ -53,7 +53,7 @@
       <!-- Victhor das Virgens Lima Castro -->
       <td><a href="https://github.com/victhorcastro" target="_blank">Victhor das Virgens Lima Castro</a></td>
       <td>24.01503-2</td>
-      <td>Desenvolvedor back-end e banco de dados</td>
+      <td>Desenvolvedor back-end, front-end e banco de dados</td>
     </tr>
 
  </tbody>
