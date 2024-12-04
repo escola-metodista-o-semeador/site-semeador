@@ -9,4 +9,7 @@
 
   /* Sombras topo */
   --shadow-top01: 0px -4px 5px rgba(0, 0, 0, 0.24);
+
+  /* Brilhos */
+  --bright01: 0 0 5px 1px var(--cor-primaria);
 }

@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* Estilos do formulário de login */
+
+/* <main> com o formulário */
+main.login-form {
+  /* Alinhamento e container */
+  margin-inline: var(--padding-lateral-container);
+
+  /* Espaçamento */
+  padding: 20px;
+
+  /* Borda */
+  border: var(--borda-principal);
+  border-radius: var(--corner-large);
+}
+
+form {
+  /* Layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Espaçamento */
+  padding: 16px;
+  gap: 8px;
+
+  /* Label de formulário */
+  & label {
+    display: flex;
+    flex-direction: column;
+    /* Tipografia dos rótulos */
+    font-size: 1.2rem;
+
+    /* Espaçamento */
+    gap: 0.5rem;
+
+    /* Campos de formulário */
+    & input {
+      font-size: 1rem;
+      /* Espaçamento */
+      padding: 0.5rem;
+
+      /* Dimensões */
+      min-width: 400px;
+
+      /* Aparência */
+      border: var(--borda-principal);
+      border-radius: var(--corner-extra-small);
+
+      /* Transição */
+      transition-property: border, box-shadow;
+      transition-duration: 0.5s;
+
+      /* Campo selecionado */
+      &:focus {
+        /* Remover estilos pré-definidos pelo browser */
+        outline: none;
+
+        box-shadow: var(--bright01);
+      }
+    }
+  }
+
+  /* Botão de submissão */
+  & *[type="submit"] {
+    /* Espaçamento */
+    margin-top: 16px;
+
+    /* Dimensões */
+    min-width: 160px;
+  }
+}
