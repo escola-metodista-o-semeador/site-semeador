@@ -160,6 +160,27 @@ footer#footer-principal {
   }
 }
 
+/* Link da Área dos professores */
+.area-professores {
+  /* Layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Dimensões */
+  width: 100%;
+  /* Espaçamento */
+  margin-top: 1.5rem;
+
+  /* Link */
+  & a {
+    color: var(--cinza-claro);
+    /* Efeito hover */
+    &:hover {
+      color: var(--roxo-medio);
+    }
+  }
+}
+
 /* Footer legal */
 #footer-legal {
   /* Espaçamento */
